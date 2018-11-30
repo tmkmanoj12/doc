@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/doc/content-organisation/logo/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/getting-start/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/getting-start/installation/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/content-organisation/extramenu/</loc>
+    <lastmod>2017-04-29T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/getting-start/configuration/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/content-organisation/customize-style/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/create-page/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/content-organisation/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/search/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/create-page/homepage/</loc>
+    <lastmod>2017-04-28T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/create-page/page-images/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/create-page/myslide/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/create-page/page-slide/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/doc/credits/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/content-organisation/customize-style/disable/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/showcase/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/tags/tag1/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/doc/tags/tag2/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/doc/tags/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/doc/content-organisation/customize-style/themestyle/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/content-organisation/customize-style/theme-variants/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/alert/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/attachments/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/button/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/children/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/excerpt/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/excerpt-include/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/expand/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/icon/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/mermaid/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/notice/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/children/children-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/children/children-1/children-1-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/children/children-1/children-1-1/children-1-1-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/children/children-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/children/children-3/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/children/children-4/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/children/test/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/children/children-2/test3/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/panel/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/shortcodes/revealjs/</loc>
+  </url>
+  
+</urlset>
