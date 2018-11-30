@@ -3,68 +3,130 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/doc/content-organisation/logo/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+    <loc>/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_fats/</loc>
+    <lastmod>2018-11-27T02:24:39+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/doc/getting-start/</loc>
+    <loc>/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/</loc>
+    <lastmod>2018-11-27T07:50:56+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/doc/getting-start/installation/</loc>
+    <loc>/doc/health/books/rujuthadiwekar/</loc>
+    <lastmod>2018-11-27T07:49:55+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/doc/content-organisation/extramenu/</loc>
-    <lastmod>2017-04-29T18:36:24+02:00</lastmod>
+    <loc>/doc/technical/languages/javascript/books/</loc>
+    <lastmod>2018-11-26T15:38:29+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/doc/getting-start/configuration/</loc>
+    <loc>/doc/technical/languages/angular/books/</loc>
+    <lastmod>2018-11-26T15:38:19+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/doc/content-organisation/customize-style/</loc>
+    <loc>/doc/technical/languages/nodejs/books/</loc>
+    <lastmod>2018-11-26T15:35:51+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/doc/create-page/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+    <loc>/doc/technical/general/hugo/mike_dane_tut/</loc>
+    <lastmod>2018-11-26T08:45:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/doc/content-organisation/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+    <loc>/doc/health/books/</loc>
   </url>
   
   <url>
-    <loc>/doc/shortcodes/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+    <loc>/doc/technical/core/</loc>
   </url>
   
   <url>
-    <loc>/doc/search/</loc>
+    <loc>/doc/technical/tools/git/</loc>
   </url>
   
   <url>
-    <loc>/doc/create-page/homepage/</loc>
-    <lastmod>2017-04-28T18:36:24+02:00</lastmod>
+    <loc>/doc/technical/general/hugo/</loc>
+    <lastmod>2018-11-26T08:45:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/doc/create-page/page-images/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+    <loc>/doc/technical/languages/javascript/</loc>
   </url>
   
   <url>
-    <loc>/doc/create-page/myslide/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+    <loc>/doc/technical/</loc>
   </url>
   
   <url>
-    <loc>/doc/create-page/page-slide/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+    <loc>/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_vitamins_minerals/</loc>
+    <lastmod>2018-11-29T03:02:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/technical/languages/javascript/tutorials/</loc>
+    <lastmod>2018-11-26T15:37:53+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/technical/languages/angular/tutorials/</loc>
+    <lastmod>2018-11-26T15:37:43+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/technical/languages/nodejs/tutorials/</loc>
+    <lastmod>2018-11-26T15:37:35+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/technical/languages/nodejs/</loc>
+    <lastmod>2018-11-26T15:04:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/technical/languages/mongo/</loc>
+    <lastmod>2018-11-26T15:02:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/health/fitness/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/health/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/technical/languages/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/general/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/health/general/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/technical/web-domain/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/technical/languages/angular/</loc>
+    <lastmod>2018-11-26T15:04:07+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/technical/tools/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/technical/general/</loc>
   </url>
   
   <url>
@@ -73,134 +135,13 @@
   </url>
   
   <url>
-    <loc>/doc/credits/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/content-organisation/customize-style/disable/</loc>
-  </url>
-  
-  <url>
     <loc>/doc/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/doc/showcase/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/tags/tag1/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/doc/tags/tag2/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2018-11-27T02:24:39+00:00</lastmod>
   </url>
   
   <url>
     <loc>/doc/tags/</loc>
-    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/doc/content-organisation/customize-style/themestyle/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/content-organisation/customize-style/theme-variants/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/alert/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/attachments/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/button/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/children/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/excerpt/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/excerpt-include/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/expand/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/icon/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/mermaid/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/notice/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/children/children-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/children/children-1/children-1-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/children/children-1/children-1-1/children-1-1-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/children/children-1/children-1-1/children-1-1-1/children-1-1-1-1/children-1-1-1-1-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/children/children-2/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/children/children-3/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/children/children-4/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/children/test/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/children/children-2/test3/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/panel/</loc>
-  </url>
-  
-  <url>
-    <loc>/doc/shortcodes/revealjs/</loc>
   </url>
   
 </urlset>
