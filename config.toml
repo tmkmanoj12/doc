@@ -2,7 +2,7 @@ baseURL = "/doc"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "DocDock Documentation"
+title = "Manoj Documentation"
 theme = "hugo-theme-docdock"
 #themesdir = "../.."
 pygmentsCodeFences = true
@@ -29,10 +29,10 @@ enableMissingTranslationPlaceholders = false
 
 
 [params]
-editURL = "https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/"
+editURL = "https://github.com/tmkmanoj12/doc/edit/master/content/"
 showVisitedLinks = true # default is false
 themeStyle = "flex" # "original" or "flex" # default "flex"
-themeVariant = "blue"# choose theme variant "green", "gold" , "gray", "blue" (default)
+themeVariant = "green" # choose theme variant "green", "gold" , "gray", "blue" (default)
 ordersectionsby = "weight" # ordersectionsby = "title"
 disableHomeIcon = false # default is false
 disableSearch = false # default is false
@@ -45,25 +45,31 @@ enableGitInfo = true
 home = [ "HTML", "RSS", "JSON"]
 
 
-[[menu.shortcuts]]
-pre = "<h3>More</h3>"
-name = "<i class='fa fa-github'></i> <label>Github repo</label>"
-identifier = "ds"
-url = "https://github.com/vjeantet/hugo-theme-docdock"
-weight = 10
+# [[menu.shortcuts]]
+# pre = "<h3>More</h3>"
+# name = "<i class='fa fa-github'></i> <label>Github repo</label>"
+# identifier = "ds"
+# url = "https://github.com/vjeantet/hugo-theme-docdock"
+# weight = 10
+
+# [[menu.shortcuts]]
+# name = "<i class='fa fa-cloud-download'></i> <label>Download</label>"
+# url = "https://github.com/vjeantet/hugo-theme-docdock/archive/master.zip"
+# weight = 11
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-cloud-download'></i> <label>Download</label>"
-url = "https://github.com/vjeantet/hugo-theme-docdock/archive/master.zip"
-weight = 11
-
-[[menu.shortcuts]]
-name = "<i class='fa fa-bookmark'></i> <label>Hugo Documentation</label>"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
+name = "<i class='fa fa-bookmark'></i> <label>DEV Docs</label>"
+identifier = "nodedoc"
+url = "https://devdocs.io/"
 weight = 20
 
-[[menu.shortcuts]]
-name = "<i class='fa fa-bullhorn'></i> <label>Credits</label>"
-url = "/credits"
-weight = 30
+# [[menu.shortcuts]]
+# name = "<i class='fa fa-bookmark'></i> <label>Node Documentation</label>"
+# identifier = "nodedoc"
+# url = "https://nodejs.org/dist/latest-v10.x/docs/api/"
+# weight = 20
+
+# [[menu.shortcuts]]
+# name = "<i class='fa fa-bullhorn'></i> <label>Credits</label>"
+# url = "/credits"
+# weight = 30
