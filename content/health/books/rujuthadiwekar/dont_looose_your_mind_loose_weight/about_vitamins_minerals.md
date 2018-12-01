@@ -16,9 +16,8 @@ chapter: false
 
 - for **Iron** , it requires adequate protein , vitamin **B** ans **C** to form heamoglobin(blood)
 
-# Vitamins
 
-## Vitamin A
+###  Vitamin A
 
 - found in
 
@@ -51,3 +50,22 @@ Take it when you are stressed or travelling
 - Best time to take vitamin A is after a stressful period of day ,after a big workout or a long flight
 
 - Carotenes are also a good way of **combating acne** , help prevent cancer , maintain healthy reproductive system and reduce vaginal infections
+
+### Vitamin D
+
+- Found in our body, we syntesize it upon exposing to sunlight
+- To get this you need to get the daily dose of sun
+- best time is aroung sunrise(sun not harmul to skin at this time)
+- we can also get this from **fish** adn **egg yolks**
+- plants are not a good souce of this vitamin
+- green leafy vegetables is best
+- We need it because of calcium absorption
+- Deficiency causes
+
+  - bowing of legs
+  - curving of spine
+  - loass of bone density
+  - joint pain and discomfort
+
+- It is also has carcenigic properties escpicially breast and colon cancer , they are most common when sunlight is not adequate
+
