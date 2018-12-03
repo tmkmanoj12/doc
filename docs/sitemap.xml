@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/introduction/</loc>
+    <lastmod>2018-12-03T19:34:33+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/</loc>
+    <lastmod>2018-12-03T13:04:24+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_fats/</loc>
     <lastmod>2018-11-27T02:24:39+00:00</lastmod>
   </url>
@@ -33,6 +43,11 @@
   </url>
   
   <url>
+    <loc>/doc/technical/languages/python/tutorials/</loc>
+    <lastmod>2018-11-26T15:04:00+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/doc/technical/general/hugo/mike_dane_tut/</loc>
     <lastmod>2018-11-26T08:45:31+00:00</lastmod>
   </url>
@@ -60,6 +75,11 @@
   
   <url>
     <loc>/doc/technical/</loc>
+  </url>
+  
+  <url>
+    <loc>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/</loc>
+    <lastmod>2018-12-03T14:08:45+00:00</lastmod>
   </url>
   
   <url>
@@ -126,6 +146,11 @@
   </url>
   
   <url>
+    <loc>/doc/technical/languages/python/</loc>
+    <lastmod>2018-11-26T15:04:00+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/doc/technical/general/</loc>
   </url>
   
@@ -136,7 +161,7 @@
   
   <url>
     <loc>/doc/</loc>
-    <lastmod>2018-11-27T02:24:39+00:00</lastmod>
+    <lastmod>2018-12-03T19:34:33+05:30</lastmod>
   </url>
   
   <url>

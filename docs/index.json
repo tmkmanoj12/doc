@@ -1,5 +1,19 @@
 [
 {
+	"uri": "/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": " Python Bootcamp Zero to Hero Udemy python2 vs python3  python 2\n python 2 was started in 2000 python 2.7 was released in mid 2010 will loose support for security updates in 2020  python 3\n released in 2008 more and more libraries are beginning to support but not all  which one to choose ??\n both they are very similar with key differences  Majority of people are using python 2.7\n if you want to a opportunity in python you will likely be doing in 2.7\n  Installation  Easiest way to install python and jupyter notebooks is using anaconda  Editors  wingware ide by jet brains(pycharm) komodo text editor spyder (similar to matlab)  Jupyter note books  You can run python code in bowser made up of cells cell is where you can input code and run it shift + enter will run a cell if cell is running a long time you can interrupt the kernel you can insert , cut ,copy a cell we have options of rull all above and run all below kernel (the code thats runinng) it will support intellisense of methods like methods on array - (click tab) shift + tab will make an expanded view of intellisense if you want any help you call help() method eg : help(\u0026lt;variablename\u0026gt;) you can change cells to markdown cells , they are like Markdown text for comments use # larger multiline comments  \u0026#39;\u0026#39;\u0026#39; larger multiline string \u0026#39;\u0026#39;\u0026#39; Resources  Author notebok repo\n Author python bootcamp notebook\n use stack overflow for learning\n python docs\n  "
+},
+{
+	"uri": "/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/",
+	"title": "Bootcamp_zero_to_hero",
+	"tags": [],
+	"description": "",
+	"content": "  Introduction Python Bootcamp Zero to Hero Udemy python2 vs python3 python 2 python 2 was started in 2000 python 2.7 was released in mid 2010 will loose support for security updates in 2020 python 3 released in 2008 more and more libraries are beginning to support but not all which one to choose ?? both they are very similar with key differences Majority of people are using python 2.\n  Objects_ds_basics lot of types of numbers in python like integers : 1 ,3, 2 floating point numbers : 2.1, -1.23 , 4E2 In python 2, it does classic division means decimal points gets truncated off 3/2 = 1 How can we make it do true division , atleast make sure one is floating point number 3.0/2 = 1.5 3/2.0 = 1.5 Cast of them to float\n  "
+},
+{
 	"uri": "/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_fats/",
 	"title": "About_fats",
 	"tags": [],
@@ -40,6 +54,13 @@
 	"tags": [],
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "/doc/technical/languages/python/tutorials/",
+	"title": "Tutorials",
+	"tags": [],
+	"description": "",
+	"content": "  Bootcamp_zero_to_hero Introduction Python Bootcamp Zero to Hero Udemy python2 vs python3 python 2 python 2 was started in 2000 python 2.7 was released in mid 2010 will loose support for security updates in 2020 python 3 released in 2008 more and more libraries are beginning to support but not all which one to choose ?? both they are very similar with key differences Majority of people are using python 2.\n  "
 },
 {
 	"uri": "/doc/technical/general/hugo/mike_dane_tut/",
@@ -89,6 +110,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Chapter 1 Basics Discover what this Hugo theme is all about and the core-concepts behind it.\n"
+},
+{
+	"uri": "/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/",
+	"title": "Objects_ds_basics",
+	"tags": [],
+	"description": "",
+	"content": " lot of types of numbers in python\n like integers : 1 ,3, 2 floating point numbers : 2.1, -1.23 , 4E2  In python 2, it does classic division means decimal points gets truncated off\n  3/2 = 1  How can we make it do true division ,\n atleast make sure one is floating point number   3.0/2 = 1.5 3/2.0 = 1.5  Cast of them to float\nfloat(3)/2 = 1.5 In python 3 - it does true division\n  3/2 = 1  we can import some capabilities from python 3 to 2 using __ future __module  from __future__ import division  for finding power  2**3 =8  order of operation is BODMAS  "
 },
 {
 	"uri": "/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_vitamins_minerals/",
@@ -187,6 +215,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Chapter 1 Basics Discover what this Hugo theme is all about and the core-concepts behind it.\n"
+},
+{
+	"uri": "/doc/technical/languages/python/",
+	"title": "Python",
+	"tags": [],
+	"description": "",
+	"content": "Python tutorials are found below\n  Tutorials Bootcamp_zero_to_hero Introduction Python Bootcamp Zero to Hero Udemy python2 vs python3 python 2 python 2 was started in 2000 python 2.7 was released in mid 2010 will loose support for security updates in 2020 python 3 released in 2008 more and more libraries are beginning to support but not all which one to choose ?? both they are very similar with key differences Majority of people are using python 2.\n  "
 },
 {
 	"uri": "/doc/technical/general/",
