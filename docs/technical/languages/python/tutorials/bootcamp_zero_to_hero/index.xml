@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bootcamp_zero_to_hero on Manoj Documentation</title>
+    <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/</link>
+    <description>Recent content in Bootcamp_zero_to_hero on Manoj Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Dec 2018 13:04:24 +0000</lastBuildDate>
+    
+	<atom:link href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/introduction/</link>
+      <pubDate>Mon, 03 Dec 2018 19:34:33 +0530</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/introduction/</guid>
+      <description>Python Bootcamp Zero to Hero Udemy python2 vs python3  python 2
+ python 2 was started in 2000 python 2.7 was released in mid 2010 will loose support for security updates in 2020  python 3
+ released in 2008 more and more libraries are beginning to support but not all  which one to choose ??
+ both they are very similar with key differences  Majority of people are using python 2.</description>
+    </item>
+    
+    <item>
+      <title>Objects_ds_basics</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/</link>
+      <pubDate>Mon, 03 Dec 2018 14:08:45 +0000</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/</guid>
+      <description>lot of types of numbers in python
+ like integers : 1 ,3, 2 floating point numbers : 2.1, -1.23 , 4E2  In python 2, it does classic division means decimal points gets truncated off
+  3/2 = 1  How can we make it do true division ,
+ atleast make sure one is floating point number   3.0/2 = 1.5 3/2.0 = 1.5  Cast of them to float</description>
+    </item>
+    
+  </channel>
+</rss>
