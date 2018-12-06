@@ -208,7 +208,7 @@ chapter: false
 - prevents overeating
 - zero on calories and adds bulk to food
 - Foods with fibre take longer to chew thus our eating time increases
-- the brain regiters that it is full only after 20 minutes
+- the brain registers that it is full only after 20 minutes
 - This goves the body a chance to know that stomach is full and reduces the chance of overeating
 - As the fibre moves in our intestine it picks up the wastes and adds bulk to your stools
 - it makes going to toilet a pleasurable experience
