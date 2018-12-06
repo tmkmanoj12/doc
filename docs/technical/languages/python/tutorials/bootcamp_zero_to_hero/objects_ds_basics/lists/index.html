@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="revised" content="2018-12-06T18:55:46 IST">
-<title>Objects_ds_basics :: Manoj Documentation</title>
+<title>Lists :: Manoj Documentation</title>
 <link rel="shortcut icon" href="/doc/images/favicon.png" type="image/x-icon" />
 <link href="/doc/css/font-awesome.min.css" rel="stylesheet">
 <link href="/doc/css/nucleus.css" rel="stylesheet">
@@ -32,7 +32,7 @@
 
     
   </head>
-  <body data-url="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/">
+  <body data-url="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/lists/">
     
       <header>
   <div class="logo">
@@ -175,7 +175,7 @@
           </a><i class="fa fa-circle-thin read-icon"></i>
         </div>
     </li>
-    <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/" class="dd-item parent active haschildren
+    <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/" class="dd-item parent haschildren
         ">
       <div>
       <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/"><b>2. </b>Objects_ds_basics</a>
@@ -203,7 +203,7 @@
           </a><i class="fa fa-circle-thin read-icon"></i>
         </div>
     </li>
-      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/lists/" class="dd-item">
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/lists/" class="dd-item active">
         <div>
           <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/lists/">
             <b>4. </b>Lists
@@ -385,13 +385,13 @@
   ---- 
    Bootcamp_zero_to_hero</option> 
       <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/introduction/" >----- Introduction</option>
-    <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/"  selected>
+    <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/" >
   ----- 
    Objects_ds_basics</option> 
       <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/numbers/" >------ Numbers</option>
       <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/strings/" >------ Strings</option>
       <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/print_format/" >------ Print_format</option>
-      <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/lists/" >------ Lists</option>
+      <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/lists/"  selected>------ Lists</option>
   
   
   
@@ -433,54 +433,106 @@
       </div>
     
 
-    <h1>Objects_ds_basics</h1>
+    <h1>Lists</h1>
     
     
     
+    
 
+<ul>
+<li>Strings are types of sequence in python</li>
+<li>lists are more generalised version of sequence</li>
+<li>lists are constructed with sqaure brackets and each element is seperated with commas</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">my_list</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">]</span></code></pre></div>
+<ul>
+<li>this is a list of integers</li>
+<li>lists can hold a different kind of object TypeScript</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">my_list</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#d88200">&#34;string&#34;</span><span style="color:#111">,</span><span style="color:#ae81ff">3.341</span><span style="color:#111">]</span></code></pre></div>
+<p>##Functions</p>
 
-
-<ul class="children children-h2">
-
-<span><h2>
-		<a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/numbers/" >Numbers</a></h2>
-<p>Numbers  lot of types of numbers in python
- like integers : 1 ,3, 2 floating point numbers : 2.1, -1.23 , 4E2  In python 2, it does classic division means decimal points gets truncated off
-  3/2 = 1  How can we make it do true division ,
- atleast make sure one is floating point number   3.0/2 = 1.5 3/2.0 = 1.</p>
-</span>
-
-<span><h2>
-		<a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/strings/" >Strings</a></h2>
-<p>You can create by single quotes '' or double quotes &quot;&quot; It treates everything in a sentence as sequence Means &ldquo;Manoj Kumar&rdquo; every letter is a part of a sequence so that we can use indexing and slicing we can also have &quot;Manoj last name is 'kumar' &quot; we can do the opposite 'Manoj last name is &quot;kumar&quot;' we can display it using print statement eg : print &quot;Manoj&quot; we can ask for new line symbol as \n like that we can have different characters such as \t   python 2 vs python 3</p>
-</span>
-
-<span><h2>
-		<a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/print_format/" >Print_format</a></h2>
-<p>python 2  print statement is used to print the strings - Print a string
-print &#34;Manoj Kumar&#34;  Print a string vaiable along with a string  a= &#34;manoj&#34; print &#34;My name is %s&#34; %(a)  Print a floating point variable  a= 1.233 print &#34;My name is %1.2f&#34; %(a)  In 1.2f 2 is how many numbers to show past the decimal if you make 2 as 10 it will fill rest of absent decimals with 0 1 is the total number of minimum digits that string should contain Suppose if you make 1 to 10 it will fill rest of the spaces with whitespaces  a= 1.</p>
-</span>
-
-<span><h2>
-		<a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/lists/" >Lists</a></h2>
-<p>Strings are types of sequence in python lists are more generalised version of sequence lists are constructed with sqaure brackets and each element is seperated with commas  my_list = [1,2,3]  this is a list of integers lists can hold a different kind of object TypeScript  my_list = [1,&#34;string&#34;,3.341] ##Functions
- just like strings they have a length Length of a list  len([1,&#34;string&#34;,3.341])  Indexing and Slicing a = [&#34;one&#34;,1,2,3] a[1] #output 1 a[1:] # take everything from index - 1 a[:3] # take everything upto index - 3 (excluding 3)  You can concatenate lists like strings  [1,2,3]+[&#34;one&#34;,&#34;two&#34;,&#34;three&#34;]  You can repeat the lists using muliplication just like strings  ([1,2,3]+[&#34;one&#34;,&#34;two&#34;,&#34;three&#34;])*2  list can grow as long as we want they have no type constraint  Methods  append  [1,2,3].</p>
-</span>
+<ul>
+<li>just like strings they have a length</li>
+<li>Length of a list</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">    <span style="color:#111">len</span><span style="color:#111">([</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#d88200">&#34;string&#34;</span><span style="color:#111">,</span><span style="color:#ae81ff">3.341</span><span style="color:#111">])</span>
+    </code></pre></div>
+<h3 id="indexing-and-slicing">Indexing and Slicing</h3>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  <span style="color:#111">a</span>  <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#d88200">&#34;one&#34;</span><span style="color:#111">,</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">]</span>
+  <span style="color:#111">a</span><span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">]</span> <span style="color:#75715e">#output 1</span>
+  <span style="color:#111">a</span><span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">:]</span> <span style="color:#75715e"># take everything from index - 1</span>
+  <span style="color:#111">a</span><span style="color:#111">[:</span><span style="color:#ae81ff">3</span><span style="color:#111">]</span> <span style="color:#75715e"># take everything upto index - 3 (excluding 3)</span></code></pre></div>
+<ul>
+<li>You can concatenate lists like strings</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">]</span><span style="color:#f92672">+</span><span style="color:#111">[</span><span style="color:#d88200">&#34;one&#34;</span><span style="color:#111">,</span><span style="color:#d88200">&#34;two&#34;</span><span style="color:#111">,</span><span style="color:#d88200">&#34;three&#34;</span><span style="color:#111">]</span></code></pre></div>
+<ul>
+<li>You can repeat the lists using <strong>muliplication</strong> just like strings</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">([</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">]</span><span style="color:#f92672">+</span><span style="color:#111">[</span><span style="color:#d88200">&#34;one&#34;</span><span style="color:#111">,</span><span style="color:#d88200">&#34;two&#34;</span><span style="color:#111">,</span><span style="color:#d88200">&#34;three&#34;</span><span style="color:#111">])</span><span style="color:#f92672">*</span><span style="color:#ae81ff">2</span></code></pre></div>
+<ul>
+<li>list can grow as long as we want</li>
+<li>they have no type constraint</li>
 </ul>
 
+<h3 id="methods">Methods</h3>
 
+<ul>
+<li><strong>append</strong></li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">    <span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">]</span><span style="color:#f92672">.</span><span style="color:#111">append</span><span style="color:#111">(</span><span style="color:#d88200">&#34;append_me&#34;</span><span style="color:#111">)</span> <span style="color:#75715e"># this wont work</span>
+    <span style="color:#111">a</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">]</span>
+    <span style="color:#111">a</span><span style="color:#f92672">.</span><span style="color:#111">append</span><span style="color:#111">(</span><span style="color:#d88200">&#34;append&#34;</span><span style="color:#111">)</span> <span style="color:#75715e"># this works</span></code></pre></div>
+<ul>
+<li><strong>pop</strong></li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">    <span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">]</span><span style="color:#f92672">.</span><span style="color:#111">pop</span><span style="color:#111">()</span> <span style="color:#75715e"># this will work</span>
+    <span style="color:#111">a</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">,</span><span style="color:#ae81ff">4</span><span style="color:#111">,</span><span style="color:#ae81ff">5</span><span style="color:#111">,</span><span style="color:#ae81ff">6</span><span style="color:#111">,</span><span style="color:#ae81ff">7</span><span style="color:#111">,</span><span style="color:#ae81ff">8</span><span style="color:#111">]</span>
+    <span style="color:#111">a</span><span style="color:#f92672">.</span><span style="color:#111">pop</span><span style="color:#111">()</span> <span style="color:#75715e"># this works</span>
+    <span style="color:#75715e">## we can also pop a specific index by default it is  -1</span>
+    <span style="color:#111">a</span><span style="color:#f92672">.</span><span style="color:#111">pop</span><span style="color:#111">(</span><span style="color:#ae81ff">1</span><span style="color:#111">)</span></code></pre></div>
+<ul>
+<li>after popping there will be no element in the list</li>
+<li><strong>sort</strong></li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  <span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">]</span><span style="color:#f92672">.</span><span style="color:#111">reverse</span><span style="color:#111">()</span> <span style="color:#75715e"># will not work</span>
+  <span style="color:#00a8c8">print</span><span style="color:#111">([</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">]</span><span style="color:#f92672">.</span><span style="color:#111">reverse</span><span style="color:#111">())</span> <span style="color:#75715e"># will not work gives output as None</span>
+  <span style="color:#111">a</span>  <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">,</span><span style="color:#ae81ff">4</span><span style="color:#111">]</span>
+  <span style="color:#111">a</span><span style="color:#f92672">.</span><span style="color:#111">reverse</span><span style="color:#111">()</span>
+  <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#111">a</span><span style="color:#111">)</span> <span style="color:#75715e"># this will permanently reverses the array unlike slicing which returns the sliced elements</span></code></pre></div>
+<h4 id="we-can-have-lists-inside-a-lists">We can have lists inside a lists</h4>
 
-
-
-
+<ul>
+<li>we can form a matrix by having lists inside a list and it can do ery nested</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">l1</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">]</span>
+<span style="color:#111">l2</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#ae81ff">4</span><span style="color:#111">,</span><span style="color:#ae81ff">5</span><span style="color:#111">,</span><span style="color:#ae81ff">6</span><span style="color:#111">]</span>
+<span style="color:#111">l3</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#ae81ff">7</span><span style="color:#111">,</span><span style="color:#ae81ff">8</span><span style="color:#111">,</span><span style="color:#ae81ff">9</span><span style="color:#111">]</span>
+<span style="color:#111">l</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#111">l1</span><span style="color:#111">,</span><span style="color:#111">l2</span><span style="color:#111">,</span><span style="color:#111">l3</span><span style="color:#111">]</span>
+<span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#111">l</span><span style="color:#111">)</span> <span style="color:#75715e"># this is a matrix</span>
+<span style="color:#75715e"># we can get elements like</span>
+<span style="color:#111">inside_element</span> <span style="color:#f92672">=</span> <span style="color:#111">l</span><span style="color:#111">[</span><span style="color:#ae81ff">0</span><span style="color:#111">][</span><span style="color:#ae81ff">2</span><span style="color:#111">]</span></code></pre></div>
+<ul>
+<li>python has advanced feature called list comprehension and it allows for quick construction of lists - basically deconstructing <code>for</code> loop within brackets</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">l1</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">]</span>
+<span style="color:#111">l2</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#ae81ff">4</span><span style="color:#111">,</span><span style="color:#ae81ff">5</span><span style="color:#111">,</span><span style="color:#ae81ff">6</span><span style="color:#111">]</span>
+<span style="color:#111">l3</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#ae81ff">7</span><span style="color:#111">,</span><span style="color:#ae81ff">8</span><span style="color:#111">,</span><span style="color:#ae81ff">9</span><span style="color:#111">]</span>
+<span style="color:#111">l</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#111">l1</span><span style="color:#111">,</span><span style="color:#111">l2</span><span style="color:#111">,</span><span style="color:#111">l3</span><span style="color:#111">]</span>
+<span style="color:#111">c</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#111">row</span><span style="color:#111">[</span><span style="color:#ae81ff">0</span><span style="color:#111">]</span> <span style="color:#00a8c8">for</span> <span style="color:#111">row</span> <span style="color:#f92672">in</span> <span style="color:#111">l</span><span style="color:#111">]</span>
+<span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#111">c</span><span style="color:#111">)</span></code></pre></div>
+<ul>
+<li>this basicall means for every element in final list , grab the zeroth inde of that element</li>
+</ul>
 
 
     
     
         <div class="chevrons">
     <div id="navigation">
-<a class="nav nav-prev" href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/introduction/" title="Introduction"> <i class="fa fa-chevron-left"></i><label>Introduction</label></a>
-    <a class="nav nav-next" href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/numbers/" title="Numbers" style="margin-right: 0px;"><label>Numbers</label><i class="fa fa-chevron-right"></i></a></div>
+<a class="nav nav-prev" href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/print_format/" title="Print_format"> <i class="fa fa-chevron-left"></i><label>Print_format</label></a>
+    <a class="nav nav-next" href="/doc/technical/web-domain/" title="Web-Domain" style="margin-right: 0px;"><label>Web-Domain</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 
   </section>
@@ -501,7 +553,7 @@ print &#34;Manoj Kumar&#34;  Print a string vaiable along with a string  a= &#34
 
     
     <div class="github-link">
-      <a href="https://github.com/tmkmanoj12/doc/edit/master/content/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/_index.md" target="blank"><i class="fa fa-code-fork"></i>
+      <a href="https://github.com/tmkmanoj12/doc/edit/master/content/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/lists.md" target="blank"><i class="fa fa-code-fork"></i>
         Improve this page</a>
     </div>
     

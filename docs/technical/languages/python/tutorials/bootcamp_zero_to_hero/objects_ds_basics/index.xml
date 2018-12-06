@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Learn Website Manoj on Manoj Documentation</title>
-    <link>/doc/</link>
-    <description>Recent content in Learn Website Manoj on Manoj Documentation</description>
+    <title>Objects_ds_basics on Manoj Documentation</title>
+    <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/</link>
+    <description>Recent content in Objects_ds_basics on Manoj Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Dec 2018 12:51:16 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 06 Dec 2018 12:48:55 +0530</lastBuildDate>
     
-	<atom:link href="/doc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -24,61 +24,12 @@
     </item>
     
     <item>
-      <title>Introduction</title>
-      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/introduction/</link>
-      <pubDate>Mon, 03 Dec 2018 19:34:33 +0530</pubDate>
-      
-      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/introduction/</guid>
-      <description>Python Bootcamp Zero to Hero Udemy python2 vs python3  python 2
- python 2 was started in 2000 python 2.7 was released in mid 2010 will loose support for security updates in 2020  python 3
- released in 2008 more and more libraries are beginning to support but not all  which one to choose ??
- both they are very similar with key differences  Majority of people are using python 2.</description>
-    </item>
-    
-    <item>
-      <title>About_fats</title>
-      <link>/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_fats/</link>
-      <pubDate>Tue, 27 Nov 2018 02:24:39 +0000</pubDate>
-      
-      <guid>/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_fats/</guid>
-      <description>fats play an important role in our body
-  It helps us survive during periods of prolonged mental and physical stress,sickness ans prolonged starvation This is the only nutirent that can help us survive during toughest phases.  eat fat to loose fat
-  Fat is dense substance providing us with 9 calories per gram  carbs and protiens provide only 4 calories per gram
-  Other than survival , fats also do following functions in body</description>
-    </item>
-    
-    <item>
-      <title>Mike_dane_tut</title>
-      <link>/doc/technical/general/hugo/mike_dane_tut/</link>
-      <pubDate>Mon, 26 Nov 2018 08:45:31 +0000</pubDate>
-      
-      <guid>/doc/technical/general/hugo/mike_dane_tut/</guid>
-      <description>Attachments   BachGavotteShort.mp3  (357 kB)   Carroll_AliceAuPaysDesMerveilles.pdf  (175 kB)   adivorciarsetoca00cape.pdf  (361 kB)   hugo.png  (17 kB)   movieselectricsheep-flock-244-32500-2.mp4  (340 kB)   Installation
-sudo apt-get install hugo Go to folder structure and do
-hugo new site &amp;lt;project_name&amp;gt; A Bunch of folders will be created
-Folder_Structure
- archetypes
- If we had a website and we want to assign a page a author or specify will language it is written.</description>
-    </item>
-    
-    <item>
       <title>Strings</title>
       <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/strings/</link>
       <pubDate>Thu, 06 Dec 2018 07:25:29 +0000</pubDate>
       
       <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/strings/</guid>
       <description>You can create by single quotes &#39;&#39; or double quotes &amp;quot;&amp;quot; It treates everything in a sentence as sequence Means &amp;ldquo;Manoj Kumar&amp;rdquo; every letter is a part of a sequence so that we can use indexing and slicing we can also have &amp;quot;Manoj last name is &#39;kumar&#39; &amp;quot; we can do the opposite &#39;Manoj last name is &amp;quot;kumar&amp;quot;&#39; we can display it using print statement eg : print &amp;quot;Manoj&amp;quot; we can ask for new line symbol as \n like that we can have different characters such as \t   python 2 vs python 3</description>
-    </item>
-    
-    <item>
-      <title>vitamins_minerals</title>
-      <link>/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_vitamins_minerals/</link>
-      <pubDate>Sat, 01 Dec 2018 03:02:05 +0000</pubDate>
-      
-      <guid>/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_vitamins_minerals/</guid>
-      <description>All vitamins and minerals play an extremely important role in our body acting as catalysts , co-enzymes(help enzymes) and cofactors(these support chemical and metabolic reactions) of our metaboilc reations
-  they dont provide body with any energy but they are important so that body can use that energy or calories well
- A high intake of processed food , stress and other lifestyle like smoking ,late nights and inactivity are increasing need of vitamins and minerals and reducing the ability to absorb them</description>
     </item>
     
     <item>
