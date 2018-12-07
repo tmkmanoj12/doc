@@ -5,8 +5,6 @@ pre: "<b>3. </b>"
 chapter: true
 ---
 
-### Chapter 1
+### Here you can find about General Stuff
 
-# Basics
-
-Discover what this Hugo theme is all about and the core-concepts behind it.
+{{%children style="h4" description="" %}}

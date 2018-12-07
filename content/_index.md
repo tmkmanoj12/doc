@@ -2,7 +2,10 @@
 title: "Learn Website Manoj"
 ---
 
-# Hugo learn theme
-{{% notice tip%}}
-Manoj is cool
-{{% /notice %}}
+# Welcome to my Notes Website
+![](welcome1.png)
+
+### Here you can find all kind of notes prepared by me
+- [Technical](technical) - Realted to techincal stuff
+- [Health](health) - Realted to Health
+- [General](general) - Realted to genral stuff

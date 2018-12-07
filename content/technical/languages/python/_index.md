@@ -6,11 +6,6 @@ pre: <b>5. </b>
 chapter: true
 ---
 
-{{% notice tip %}}
- Python tutorials are found below
-{{% /notice %}}
 
-
-
-{{%children style="h2" description="true" %}}
+{{%children style="h4" description="" %}}
 

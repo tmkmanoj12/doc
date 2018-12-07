@@ -107,6 +107,6 @@ l2 = [4,5,6]
 l3 = [7,8,9]
 l = [l1,l2,l3]
 c = [row[0] for row in l]
-print(c)
+print(c) # [1,4,7]
 ```
 - this basicall means for every element in final list , grab the zeroth inde of that element

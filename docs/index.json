@@ -39,28 +39,28 @@
 	"title": "Rujuthadiwekar",
 	"tags": [],
 	"description": "",
-	"content": "  weight_loss fats fats play an important role in our body It helps us survive during periods of prolonged mental and physical stress,sickness ans prolonged starvation This is the only nutirent that can help us survive during toughest phases. eat fat to loose fat Fat is dense substance providing us with 9 calories per gram carbs and protiens provide only 4 calories per gram Other than survival , fats also do following functions in body\n  "
+	"content": "  weight_loss   "
 },
 {
 	"uri": "/doc/technical/languages/javascript/books/",
 	"title": "Books",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "  "
 },
 {
 	"uri": "/doc/technical/languages/angular/books/",
 	"title": "Books",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "  "
 },
 {
 	"uri": "/doc/technical/languages/nodejs/books/",
 	"title": "Books",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "  "
 },
 {
 	"uri": "/doc/technical/languages/python/tutorials/",
@@ -81,42 +81,42 @@
 	"title": "Books",
 	"tags": [],
 	"description": "",
-	"content": "  Rujuthadiwekar weight_loss fats fats play an important role in our body It helps us survive during periods of prolonged mental and physical stress,sickness ans prolonged starvation This is the only nutirent that can help us survive during toughest phases. eat fat to loose fat Fat is dense substance providing us with 9 calories per gram carbs and protiens provide only 4 calories per gram Other than survival , fats also do following functions in body\n  "
+	"content": "  Rujuthadiwekar   "
 },
 {
 	"uri": "/doc/technical/core/",
 	"title": "Core",
 	"tags": [],
 	"description": "",
-	"content": " Chapter 1 Basics Discover what this Hugo theme is all about and the core-concepts behind it.\n"
+	"content": "  "
 },
 {
 	"uri": "/doc/technical/tools/git/",
 	"title": "Git",
 	"tags": [],
 	"description": "",
-	"content": " Chapter 1 Basics Discover what this Hugo theme is all about and the core-concepts behind it.\n"
+	"content": "  "
 },
 {
 	"uri": "/doc/technical/general/hugo/",
 	"title": "Hugo",
 	"tags": [],
 	"description": "",
-	"content": "\u0026ndash; Hugo tutorials are found here\n  Mike_dane_tut Attachments BachGavotteShort.mp3 (357 kB) Carroll_AliceAuPaysDesMerveilles.pdf (175 kB) adivorciarsetoca00cape.pdf (361 kB) hugo.png (17 kB) movieselectricsheep-flock-244-32500-2.mp4 (340 kB) Installation sudo apt-get install hugo Go to folder structure and do hugo new site \u0026lt;project_name\u0026gt; A Bunch of folders will be created Folder_Structure archetypes If we had a website and we want to assign a page a author or specify will language it is written.\n  "
+	"content": "  Mike_dane_tut   "
 },
 {
 	"uri": "/doc/technical/languages/javascript/",
 	"title": "Javascript",
 	"tags": [],
 	"description": "",
-	"content": " Chapter 1 Basics Discover what this Hugo theme is all about and the core-concepts behind it.\n"
+	"content": "  Books   Tutorials   "
 },
 {
 	"uri": "/doc/technical/",
 	"title": "Technical",
 	"tags": [],
 	"description": "",
-	"content": " Chapter 1 Basics Discover what this Hugo theme is all about and the core-concepts behind it.\n"
+	"content": " Here you can find Technical Stuff  core - Realted to core computer science languages - Computer Languages web-domain - Related to Suff in Web Domain tools - Tools which are used daily like git general - Genral stuff  "
 },
 {
 	"uri": "/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/strings/",
@@ -144,56 +144,56 @@
 	"title": "Tutorials",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "  "
 },
 {
 	"uri": "/doc/technical/languages/angular/tutorials/",
 	"title": "Tutorials",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "  "
 },
 {
 	"uri": "/doc/technical/languages/nodejs/tutorials/",
 	"title": "Tutorials",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "  "
 },
 {
 	"uri": "/doc/technical/languages/nodejs/",
 	"title": "Node JS",
 	"tags": [],
 	"description": "",
-	"content": "Node JS tutorials are found below\n  Books \n  Tutorials \n  "
+	"content": "  Books   Tutorials   "
 },
 {
 	"uri": "/doc/technical/languages/mongo/",
 	"title": "Mongo DB",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "  "
 },
 {
 	"uri": "/doc/health/fitness/",
 	"title": "Ftiness",
 	"tags": [],
 	"description": "",
-	"content": " Chapter 1 Basics Discover what this Hugo theme is all about and the core-concepts behind it.\n"
+	"content": "  "
 },
 {
 	"uri": "/doc/health/",
 	"title": "Health",
 	"tags": [],
 	"description": "",
-	"content": " Chapter 1 Basics Discover what this Hugo theme is all about and the core-concepts behind it.\n"
+	"content": " Here you can find about Health  Books   Ftiness   General   "
 },
 {
 	"uri": "/doc/technical/languages/",
 	"title": "Languages",
 	"tags": [],
 	"description": "",
-	"content": " Chapter 1 Basics Discover what this Hugo theme is all about and the core-concepts behind it.\n"
+	"content": "  Javascript   Node JS   Mongo DB   Angular   Python   "
 },
 {
 	"uri": "/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_minerals/",
@@ -214,56 +214,56 @@
 	"title": "General",
 	"tags": [],
 	"description": "",
-	"content": " Chapter 1 Basics Discover what this Hugo theme is all about and the core-concepts behind it.\n"
+	"content": " Here you can find about General Stuff  "
 },
 {
 	"uri": "/doc/health/general/",
 	"title": "General",
 	"tags": [],
 	"description": "",
-	"content": " Chapter 1 Basics Discover what this Hugo theme is all about and the core-concepts behind it.\n"
+	"content": "  "
 },
 {
 	"uri": "/doc/technical/web-domain/",
 	"title": "Web-Domain",
 	"tags": [],
 	"description": "",
-	"content": " Chapter 1 Basics Discover what this Hugo theme is all about and the core-concepts behind it.\n"
+	"content": "  "
 },
 {
 	"uri": "/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/lists/",
 	"title": "Lists",
 	"tags": [],
 	"description": "",
-	"content": "  Strings are types of sequence in python lists are more generalised version of sequence lists are constructed with sqaure brackets and each element is seperated with commas  my_list = [1,2,3]  this is a list of integers lists can hold a different kind of object TypeScript  my_list = [1,\u0026#34;string\u0026#34;,3.341] ##Functions\n just like strings they have a length Length of a list  len([1,\u0026#34;string\u0026#34;,3.341])  Indexing and Slicing a = [\u0026#34;one\u0026#34;,1,2,3] a[1] #output 1 a[1:] # take everything from index - 1 a[:3] # take everything upto index - 3 (excluding 3)  You can concatenate lists like strings  [1,2,3]+[\u0026#34;one\u0026#34;,\u0026#34;two\u0026#34;,\u0026#34;three\u0026#34;]  You can repeat the lists using muliplication just like strings  ([1,2,3]+[\u0026#34;one\u0026#34;,\u0026#34;two\u0026#34;,\u0026#34;three\u0026#34;])*2  list can grow as long as we want they have no type constraint  Methods  append  [1,2,3].append(\u0026#34;append_me\u0026#34;) # this wont work a = [1,2,3] a.append(\u0026#34;append\u0026#34;) # this works  pop  [1,2,3].pop() # this will work a = [1,2,3,4,5,6,7,8] a.pop() # this works ## we can also pop a specific index by default it is -1 a.pop(1)  after popping there will be no element in the list sort  [1,2,3].reverse() # will not work print([1,2,3].reverse()) # will not work gives output as None a = [2,3,4] a.reverse() print(a) # this will permanently reverses the array unlike slicing which returns the sliced elements We can have lists inside a lists  we can form a matrix by having lists inside a list and it can do ery nested  l1 = [1,2,3] l2 = [4,5,6] l3 = [7,8,9] l = [l1,l2,l3] print(l) # this is a matrix # we can get elements like inside_element = l[0][2]  python has advanced feature called list comprehension and it allows for quick construction of lists - basically deconstructing for loop within brackets  l1 = [1,2,3] l2 = [4,5,6] l3 = [7,8,9] l = [l1,l2,l3] c = [row[0] for row in l] print(c)  this basicall means for every element in final list , grab the zeroth inde of that element  "
+	"content": "  Strings are types of sequence in python lists are more generalised version of sequence lists are constructed with sqaure brackets and each element is seperated with commas  my_list = [1,2,3]  this is a list of integers lists can hold a different kind of object TypeScript  my_list = [1,\u0026#34;string\u0026#34;,3.341] ##Functions\n just like strings they have a length Length of a list  len([1,\u0026#34;string\u0026#34;,3.341])  Indexing and Slicing a = [\u0026#34;one\u0026#34;,1,2,3] a[1] #output 1 a[1:] # take everything from index - 1 a[:3] # take everything upto index - 3 (excluding 3)  You can concatenate lists like strings  [1,2,3]+[\u0026#34;one\u0026#34;,\u0026#34;two\u0026#34;,\u0026#34;three\u0026#34;]  You can repeat the lists using muliplication just like strings  ([1,2,3]+[\u0026#34;one\u0026#34;,\u0026#34;two\u0026#34;,\u0026#34;three\u0026#34;])*2  list can grow as long as we want they have no type constraint  Methods  append  [1,2,3].append(\u0026#34;append_me\u0026#34;) # this wont work a = [1,2,3] a.append(\u0026#34;append\u0026#34;) # this works  pop  [1,2,3].pop() # this will work a = [1,2,3,4,5,6,7,8] a.pop() # this works ## we can also pop a specific index by default it is -1 a.pop(1)  after popping there will be no element in the list sort  [1,2,3].reverse() # will not work print([1,2,3].reverse()) # will not work gives output as None a = [2,3,4] a.reverse() print(a) # this will permanently reverses the array unlike slicing which returns the sliced elements We can have lists inside a lists  we can form a matrix by having lists inside a list and it can do ery nested  l1 = [1,2,3] l2 = [4,5,6] l3 = [7,8,9] l = [l1,l2,l3] print(l) # this is a matrix # we can get elements like inside_element = l[0][2]  python has advanced feature called list comprehension and it allows for quick construction of lists - basically deconstructing for loop within brackets  l1 = [1,2,3] l2 = [4,5,6] l3 = [7,8,9] l = [l1,l2,l3] c = [row[0] for row in l] print(c) # [1,4,7]  this basicall means for every element in final list , grab the zeroth inde of that element  "
 },
 {
 	"uri": "/doc/technical/languages/angular/",
 	"title": "Angular",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "  Books   Tutorials   "
 },
 {
 	"uri": "/doc/technical/tools/",
 	"title": "Tools",
 	"tags": [],
 	"description": "",
-	"content": " Chapter 1 Basics Discover what this Hugo theme is all about and the core-concepts behind it.\n"
+	"content": "  Git   "
 },
 {
 	"uri": "/doc/technical/languages/python/",
 	"title": "Python",
 	"tags": [],
 	"description": "",
-	"content": "Python tutorials are found below\n  Tutorials Bootcamp_zero_to_hero Introduction Python Bootcamp Zero to Hero Udemy python2 vs python3 python 2 python 2 was started in 2000 python 2.7 was released in mid 2010 will loose support for security updates in 2020 python 3 released in 2008 more and more libraries are beginning to support but not all which one to choose ?? both they are very similar with key differences Majority of people are using python 2.\n  "
+	"content": "  Tutorials   "
 },
 {
 	"uri": "/doc/technical/general/",
 	"title": "General",
 	"tags": [],
 	"description": "",
-	"content": " Chapter 1 Basics Discover what this Hugo theme is all about and the core-concepts behind it.\n"
+	"content": "  Hugo   .\n"
 },
 {
 	"uri": "/doc/categories/",
@@ -277,7 +277,7 @@
 	"title": "Learn Website Manoj",
 	"tags": [],
 	"description": "",
-	"content": " Hugo learn theme Manoj is cool\n "
+	"content": " Welcome to my Notes Website Here you can find all kind of notes prepared by me  Technical - Realted to techincal stuff Health - Realted to Health General - Realted to genral stuff  "
 },
 {
 	"uri": "/doc/tags/",
