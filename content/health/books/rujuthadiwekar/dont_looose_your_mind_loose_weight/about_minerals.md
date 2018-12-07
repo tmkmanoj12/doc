@@ -52,7 +52,7 @@ chapter: false
 - Deficiency od iron is common especially in women 
 - During menstural periods women loose blood (good blood & not impurities ,unlike what we believed earlier) and with it  we lose important minerals like iron , copper , magenesium etc.
 
-# Selenium , zinc , chromium , mangnesium , managanese , copper
+### Selenium , zinc , chromium , mangnesium , managanese , copper
 
 - Found in 
   - Fish 

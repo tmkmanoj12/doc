@@ -110,5 +110,51 @@ print &amp;#34;Manoj Kumar&amp;#34;  Print a string vaiable along with a string 
  just like strings they have a length Length of a list  len([1,&amp;#34;string&amp;#34;,3.341])  Indexing and Slicing a = [&amp;#34;one&amp;#34;,1,2,3] a[1] #output 1 a[1:] # take everything from index - 1 a[:3] # take everything upto index - 3 (excluding 3)  You can concatenate lists like strings  [1,2,3]+[&amp;#34;one&amp;#34;,&amp;#34;two&amp;#34;,&amp;#34;three&amp;#34;]  You can repeat the lists using muliplication just like strings  ([1,2,3]+[&amp;#34;one&amp;#34;,&amp;#34;two&amp;#34;,&amp;#34;three&amp;#34;])*2  list can grow as long as we want they have no type constraint  Methods  append  [1,2,3].</description>
     </item>
     
+    <item>
+      <title>Dictionaries</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/dictionaries/</link>
+      <pubDate>Fri, 07 Dec 2018 22:11:33 +0530</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/dictionaries/</guid>
+      <description>they are mappings in python we can think of it as hash tables or objects in JS in other languages
+ Mappings are collection of objects that are sorted by a key unlike sequence that stores obejcts by relative sequence
+ we can access an element in list by indexing
+ what mapping is doing is its gonna start objects with key
+ mappings are not gonna retain order</description>
+    </item>
+    
+    <item>
+      <title>Tuples</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/tuples/</link>
+      <pubDate>Fri, 07 Dec 2018 22:36:10 +0530</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/tuples/</guid>
+      <description>they are very similar to lists except they are immutable
+ You can construct a tuple using paranthesis with elements seperated by commas
+  a = (1,2,3) len(a) #3  we can same methods as lists on tuples tuples can have different object types A tuple is a sequence like a sequence  a = (1,2,3) len(a) #3 a[-2] # 2 Methods - only 2 methods  if we want an index of element a.</description>
+    </item>
+    
+    <item>
+      <title>Files</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/files/</link>
+      <pubDate>Fri, 07 Dec 2018 22:44:52 +0530</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/files/</guid>
+      <description>Interacting with external files we will handle .txt files of we want to handle .docx , .xlsx
+ we can open a file using open(&amp;lsquo;path&amp;rsquo;)
+ we can read the file by a.read()
+a = open(&amp;#39;test.txt)a.read() if you do a read again you will get an empty string , because it read the entire file and put the cursor at the end of file
+ so we have to reset the cursor , to do that we can have a.</description>
+    </item>
+    
+    <item>
+      <title>Sets_booleans</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/sets_booleans/</link>
+      <pubDate>Fri, 07 Dec 2018 23:11:17 +0530</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/sets_booleans/</guid>
+      <description>  sets are the unordered collection of the unique elements you can construct a set using set() it will look like a dictionary with no values but it is not python a = set() a.add(1) a.add(2) a.add(2) # there will be no change  we can convert a list with duplicate elements to unique using set()  l = [1,1,1,1,1,1,1,3,3,3,3,3,5,5,5,45,5,4] l = set(l) print(l) # will give set(1, 3, 4, 5, 45) in sorted order  sets are only concerned with unique elements  Booleans  they are true or false we can create using comaprision operaters 1&amp;gt;2 we can have None to an object that we dont have to reassign it yet  a = None print(a)</description>
+    </item>
+    
   </channel>
 </rss>
