@@ -34,3 +34,28 @@ print(l) # will give set(1, 3, 4, 5, 45) in sorted order
 a = None
 print(a)
 ```
+
+### Comparision operators
+
+We have same common comaprison oprators as other languages
+
+```python
+2<3
+2<=3
+2>=3
+2>3
+2==2
+4!=3
+2<>3 #this is same  as !=
+```
+### Chained COmparisions
+- we have muliple comparision check in single line
+- we can also have two opreators `and` , `or`
+
+```python
+1 < 2 < 3 # means 1<2 and 2<3
+(1<2) and (2<3)
+
+1<3>2 # means 1<3 and 3>2
+1==2 or 2>1
+```

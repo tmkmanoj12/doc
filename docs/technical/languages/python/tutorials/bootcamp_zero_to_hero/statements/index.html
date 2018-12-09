@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Manoj Documentation</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="revised" content="2018-12-09T22:26:21 IST">
+<title>Statements :: Manoj Documentation</title>
+<link rel="shortcut icon" href="/doc/images/favicon.png" type="image/x-icon" />
+<link href="/doc/css/font-awesome.min.css" rel="stylesheet">
+<link href="/doc/css/nucleus.css" rel="stylesheet">
+<link href="/doc/theme-flex/style.css" rel="stylesheet">
+
+	<link href="/doc/theme-flex/variant-green.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/doc/css/bootstrap.min.css">
+<script src="/doc/js/jquery-2.x.min.js"></script>
+<script type="text/javascript">
+      var baseurl = "\/doc";
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79101-13', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    
+  </head>
+  <body data-url="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/statements/">
+    
+      <header>
+  <div class="logo">
+    
+	
+  
+    <a class="baselink" href="/doc">Manoj Documentation</a>
+  
+
+
+  </div>
+  <div class="burger"><a href="javascript:void(0);" style="font-size:15px;">&#9776;</a></div>
+    <nav class="shortcuts">
+            <li class="" role="">
+                <a href="https://devdocs.io/" target="_blank" rel="noopener">
+                  <i class='fa fa-bookmark'></i> <label>DEV Docs</label>
+                </a>
+            </li>
+    </nav>
+</header>
+<article>
+  <aside>
+    <ul class="menu">
+          <li data-nav-id="/doc/" class="dd-item">
+          <a href="/doc/">
+            <i class="fa fa-fw fa-home"></i>
+          </a>
+          </li>
+    <li data-nav-id="/doc/technical/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/doc/technical/"><b>1. </b>Technical</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/doc/technical/core/" class="dd-item
+        ">
+      <div>
+      <a href="/doc/technical/core/"><b>1. </b>Core</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/doc/technical/languages/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/doc/technical/languages/"><b>2. </b>Languages</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/doc/technical/languages/javascript/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/doc/technical/languages/javascript/"><b>1. </b>Javascript</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/doc/technical/languages/javascript/books/" class="dd-item
+        ">
+      <div>
+      <a href="/doc/technical/languages/javascript/books/"><b>1. </b>Books</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/doc/technical/languages/javascript/tutorials/" class="dd-item
+        ">
+      <div>
+      <a href="/doc/technical/languages/javascript/tutorials/"><b>2. </b>Tutorials</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/doc/technical/languages/nodejs/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/doc/technical/languages/nodejs/"><b>2. </b>Node JS</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/doc/technical/languages/nodejs/books/" class="dd-item
+        ">
+      <div>
+      <a href="/doc/technical/languages/nodejs/books/"><b>1. </b>Books</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/doc/technical/languages/nodejs/tutorials/" class="dd-item
+        ">
+      <div>
+      <a href="/doc/technical/languages/nodejs/tutorials/"><b>2. </b>Tutorials</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/doc/technical/languages/mongo/" class="dd-item
+        ">
+      <div>
+      <a href="/doc/technical/languages/mongo/"><b>3. </b>Mongo DB</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/doc/technical/languages/angular/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/doc/technical/languages/angular/"><b>4. </b>Angular</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/doc/technical/languages/angular/books/" class="dd-item
+        ">
+      <div>
+      <a href="/doc/technical/languages/angular/books/"><b>1. </b>Books</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/doc/technical/languages/angular/tutorials/" class="dd-item
+        ">
+      <div>
+      <a href="/doc/technical/languages/angular/tutorials/"><b>2. </b>Tutorials</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/doc/technical/languages/python/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/doc/technical/languages/python/"><b>5. </b>Python</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/doc/technical/languages/python/tutorials/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/doc/technical/languages/python/tutorials/"><b>1. </b>Tutorials</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/" class="dd-item parent haschildren
+        ">
+      <div>
+      <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/"><b>1. </b>Bootcamp_zero_to_hero</a>
+            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/introduction/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/introduction/">
+            <b>1. </b>Introduction
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+    <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/"><b>2. </b>Objects_ds_basics</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/numbers/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/numbers/">
+            <b>1. </b>Numbers
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/strings/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/strings/">
+            <b>2. </b>Strings
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/print_format/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/print_format/">
+            <b>3. </b>Print_format
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/lists/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/lists/">
+            <b>4. </b>Lists
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/dictionaries/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/dictionaries/">
+            <b>5. </b>Dictionaries
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/tuples/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/tuples/">
+            <b>6. </b>Tuples
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/files/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/files/">
+            <b>7. </b>Files
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/sets_booleans/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/sets_booleans/">
+            <b>8. </b>Sets_booleans
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/statements/" class="dd-item active">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/statements/">
+            <b>3. </b>Statements
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/functions_methods/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/functions_methods/">
+            <b>4. </b>Functions
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/scope/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/scope/">
+            <b>5. </b>Scope
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/oops/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/oops/">
+            <b>6. </b>Oops
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/exception_handling/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/exception_handling/">
+            <b>7. </b>Exception_handling
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/modules/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/modules/">
+            <b>8. </b>Modules
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/bulitin_functions/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/bulitin_functions/">
+            <b>9. </b>Bulitin_functions
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/doc/technical/web-domain/" class="dd-item
+        ">
+      <div>
+      <a href="/doc/technical/web-domain/"><b>3. </b>Web-Domain</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/doc/technical/tools/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/doc/technical/tools/"><b>4. </b>Tools</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/doc/technical/tools/git/" class="dd-item
+        ">
+      <div>
+      <a href="/doc/technical/tools/git/"><b>1. </b>Git</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/doc/technical/general/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/doc/technical/general/"><b>5. </b>General</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/doc/technical/general/hugo/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/doc/technical/general/hugo/"><b>1. </b>Hugo</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/doc/technical/general/hugo/mike_dane_tut/" class="dd-item">
+        <div>
+          <a href="/doc/technical/general/hugo/mike_dane_tut/">
+            <b>- </b>Mike_dane_tut
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/doc/health/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/doc/health/"><b>2. </b>Health</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/doc/health/books/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/doc/health/books/"><b>1. </b>Books</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/doc/health/books/rujuthadiwekar/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/doc/health/books/rujuthadiwekar/"><b>1. </b>Rujuthadiwekar</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+    <li data-nav-id="/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/" class="dd-item haschildren
+        ">
+      <div>
+      <a href="/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/"><b>1. </b>weight_loss</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+        <ul>
+      <li data-nav-id="/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_fats/" class="dd-item">
+        <div>
+          <a href="/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_fats/">
+            <b>1. </b>fats
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_vitamins/" class="dd-item">
+        <div>
+          <a href="/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_vitamins/">
+            <b>2. </b>vitamins
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_minerals/" class="dd-item">
+        <div>
+          <a href="/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_minerals/">
+            <b>3. </b>minerals
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/doc/health/fitness/" class="dd-item
+        ">
+      <div>
+      <a href="/doc/health/fitness/"><b>2. </b>Ftiness</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+    <li data-nav-id="/doc/health/general/" class="dd-item
+        ">
+      <div>
+      <a href="/doc/health/general/"><b>3. </b>General</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/doc/general/" class="dd-item
+        ">
+      <div>
+      <a href="/doc/general/"><b>3. </b>General</a><i class="fa fa-circle-thin read-icon"></i>
+      </div>
+    </li>
+
+
+
+
+    </ul>
+    <section><center>
+
+
+
+
+
+
+
+
+
+</center>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+    </section>
+  </aside>
+  <section class="page">
+    
+    <div class="nav-select">
+      <center>Navigation : 
+        <select onchange="javascript:location.href = this.value;">
+          
+    <option value="/doc/technical/" >
+   Technical</option> 
+    <option value="/doc/technical/core/" >
+  - 
+   Core</option>
+    <option value="/doc/technical/languages/" >
+  - 
+   Languages</option> 
+    <option value="/doc/technical/languages/javascript/" >
+  -- 
+   Javascript</option>
+    <option value="/doc/technical/languages/nodejs/" >
+  -- 
+   Node JS</option>
+    <option value="/doc/technical/languages/mongo/" >
+  -- 
+   Mongo DB</option>
+    <option value="/doc/technical/languages/angular/" >
+  -- 
+   Angular</option>
+    <option value="/doc/technical/languages/python/" >
+  -- 
+   Python</option> 
+    <option value="/doc/technical/languages/python/tutorials/" >
+  --- 
+   Tutorials</option> 
+    <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/" >
+  ---- 
+   Bootcamp_zero_to_hero</option> 
+      <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/introduction/" >----- Introduction</option>
+    <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/" >
+  ----- 
+   Objects_ds_basics</option>
+      <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/statements/"  selected>----- Statements</option>
+      <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/functions_methods/" >----- Functions</option>
+      <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/scope/" >----- Scope</option>
+      <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/oops/" >----- Oops</option>
+      <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/exception_handling/" >----- Exception_handling</option>
+      <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/modules/" >----- Modules</option>
+      <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/bulitin_functions/" >----- Bulitin_functions</option>
+  
+  
+  
+  
+    <option value="/doc/technical/web-domain/" >
+  - 
+   Web-Domain</option>
+    <option value="/doc/technical/tools/" >
+  - 
+   Tools</option>
+    <option value="/doc/technical/general/" >
+  - 
+   General</option>
+  
+    <option value="/doc/health/" >
+   Health</option>
+    <option value="/doc/general/" >
+   General</option>
+
+
+
+        </select>
+      </center>
+    </div>
+      <div>
+        <div class="searchbox">
+          <input data-search-input id="search-by" type="text" placeholder="Search...">
+        </div>
+        <script type="text/javascript" src="/doc/js/lunr.min.js"></script>
+        <script type="text/javascript" src="/doc/js/auto-complete.js"></script>
+        <link href="/doc/css/auto-complete.css" rel="stylesheet">
+        <script type="text/javascript">
+          
+              var baseurl = "\/doc";
+          
+        </script>
+        <script type="text/javascript" src="/doc/js/search.js"></script>
+      </div>
+    
+
+    <h1>Statements</h1>
+    
+    
+    
+    
+
+<ul>
+<li>Other languages</li>
+</ul>
+
+<pre><code>if(a&gt;b){
+  a = 2
+  b = 4
+}
+</code></pre>
+
+<ul>
+<li>In python</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#00a8c8">if</span> <span style="color:#111">a</span><span style="color:#f92672">&gt;</span><span style="color:#111">b</span> <span style="color:#111">:</span>
+  <span style="color:#111">a</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>
+  <span style="color:#111">b</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span></code></pre></div>
+<ul>
+<li><p>pyhton gets rid of <strong>()</strong> and <strong>{}</strong> and incorporates two things one colon(:) and a whitespace</p></li>
+
+<li><p>colon is used to end a statement and white space is ued to indent what happens in case of that statement has to be exceuted</p></li>
+
+<li><p>In other languages we use semicolons(;) to end a statement but python does not have semicolons instead it uses end of line as a end of statement</p></li>
+
+<li><p>beacuse readability is given more importance</p></li>
+</ul>
+
+<h1 id="if-condition">if condition</h1>
+
+<ul>
+<li>notice here instead <code>elseif</code> there is <code>elif</code></li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">one_condition</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">&lt;</span><span style="color:#ae81ff">3</span>
+<span style="color:#00a8c8">if</span> <span style="color:#111">one_condition</span> <span style="color:#111">:</span>
+  <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#d88200">&#34;1&#34;</span><span style="color:#111">)</span>
+<span style="color:#00a8c8">elif</span> <span style="color:#ae81ff">5</span><span style="color:#f92672">&gt;</span><span style="color:#ae81ff">2</span> <span style="color:#111">:</span>
+  <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#d88200">&#34;2&#34;</span><span style="color:#111">)</span>
+<span style="color:#00a8c8">else</span> <span style="color:#111">:</span>
+  <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#d88200">&#39;else&#39;</span><span style="color:#111">)</span></code></pre></div>
+<h1 id="for-loop">for loop</h1>
+
+<ul>
+<li>A for loop acts as an iterator in python , it goes through the items that are in a sequence or any other iterable item</li>
+<li>eg : strings, lists, tuples, dictionaries</li>
+</ul>
+
+<pre><code>for item in object : 
+  do_stuff
+</code></pre>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#00a8c8">for</span> <span style="color:#111">item</span> <span style="color:#f92672">in</span> <span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">,</span><span style="color:#ae81ff">4</span><span style="color:#111">,</span><span style="color:#ae81ff">5</span><span style="color:#111">]</span> <span style="color:#111">:</span>
+  <span style="color:#00a8c8">print</span> <span style="color:#111">item</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span></code></pre></div>
+<h4 id="modulo">Modulo</h4>
+
+<ul>
+<li>we use it to get remainder</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">a</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span><span style="color:#f92672">%</span><span style="color:#ae81ff">3</span></code></pre></div>
+<ul>
+<li>We can print even and odd numbers using for loop</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#00a8c8">for</span> <span style="color:#111">item</span> <span style="color:#f92672">in</span> <span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">,</span><span style="color:#ae81ff">4</span><span style="color:#111">,</span><span style="color:#ae81ff">5</span><span style="color:#111">,</span><span style="color:#ae81ff">6</span><span style="color:#111">,</span><span style="color:#ae81ff">7</span><span style="color:#111">]:</span>
+  <span style="color:#00a8c8">if</span> <span style="color:#111">item</span><span style="color:#f92672">%</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span><span style="color:#111">:</span>
+    <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#d88200">&#39;This is an even number&#39;</span><span style="color:#111">)</span>
+  <span style="color:#00a8c8">elif</span> <span style="color:#111">item</span><span style="color:#f92672">%</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span><span style="color:#ae81ff">1</span> <span style="color:#111">:</span>
+    <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#d88200">&#39;This is a odd number&#39;</span><span style="color:#111">)</span>
+  <span style="color:#00a8c8">else</span> <span style="color:#111">:</span>
+    <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#d88200">&#34;This is neither even nor odd&#34;</span><span style="color:#111">)</span></code></pre></div>
+<ul>
+<li>we can find the sum of elements in list , tuples</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">sum</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+<span style="color:#00a8c8">for</span> <span style="color:#111">item</span> <span style="color:#f92672">in</span> <span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">,</span><span style="color:#ae81ff">4</span><span style="color:#111">,</span><span style="color:#ae81ff">5</span><span style="color:#111">]</span> <span style="color:#111">:</span>
+  <span style="color:#111">sum</span><span style="color:#f92672">+=</span> <span style="color:#111">item</span>
+<span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#111">sum</span><span style="color:#111">)</span></code></pre></div>
+<h4 id="unpacking-tuples">Unpacking tuples</h4>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">l</span> <span style="color:#f92672">=</span> <span style="color:#111">[(</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">),(</span><span style="color:#ae81ff">4</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">),(</span><span style="color:#ae81ff">5</span><span style="color:#111">,</span><span style="color:#ae81ff">6</span><span style="color:#111">)]</span>
+<span style="color:#00a8c8">for</span> <span style="color:#111">(</span><span style="color:#111">t1</span><span style="color:#111">,</span><span style="color:#111">t2</span><span style="color:#111">)</span> <span style="color:#f92672">in</span> <span style="color:#111">l</span><span style="color:#111">:</span>
+  <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#111">t1</span><span style="color:#111">)</span></code></pre></div>
+<ul>
+<li>For above to work items have to uniform</li>
+<li>we can access the items inside of it using tuple unpacking</li>
+<li>Beacuse a lot of objects delivers iterables through tuples</li>
+</ul>
+
+<h4 id="applying-to-dictionary">Applying to Dictionary</h4>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">l</span> <span style="color:#f92672">=</span> <span style="color:#111">{</span><span style="color:#d88200">&#34;k1&#34;</span><span style="color:#111">:</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#d88200">&#34;k2&#34;</span> <span style="color:#111">:</span><span style="color:#ae81ff">2</span> <span style="color:#111">,</span><span style="color:#d88200">&#34;k3&#34;</span><span style="color:#111">:</span><span style="color:#ae81ff">2</span><span style="color:#111">}</span>
+<span style="color:#00a8c8">for</span> <span style="color:#111">item</span> <span style="color:#f92672">in</span> <span style="color:#111">l</span><span style="color:#111">:</span>
+  <span style="color:#00a8c8">print</span> <span style="color:#111">l</span> <span style="color:#75715e"># this will print only keys k2,k2,k1</span></code></pre></div>
+<ul>
+<li>what if we want to get the values or both the keys and values</li>
+<li>in Python 2 we can use <code>.iteritems()</code></li>
+<li>what it does it basically creates a generator</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">d</span> <span style="color:#f92672">=</span> <span style="color:#111">{</span><span style="color:#d88200">&#34;k1&#34;</span><span style="color:#111">:</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#d88200">&#34;k2&#34;</span> <span style="color:#111">:</span><span style="color:#ae81ff">2</span> <span style="color:#111">,</span><span style="color:#d88200">&#34;k3&#34;</span><span style="color:#111">:</span><span style="color:#ae81ff">3</span><span style="color:#111">}</span>
+<span style="color:#00a8c8">for</span> <span style="color:#111">key</span><span style="color:#111">,</span><span style="color:#111">value</span> <span style="color:#f92672">in</span> <span style="color:#111">d</span><span style="color:#f92672">.</span><span style="color:#111">iteritems</span><span style="color:#111">():</span>
+  <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#111">key</span> <span style="color:#111">,</span> <span style="color:#d88200">&#39;:&#39;</span><span style="color:#111">,</span> <span style="color:#111">value</span><span style="color:#111">)</span></code></pre></div>
+<ul>
+<li>In python 3 we can use <code>.items()</code></li>
+<li>which is same as previous method</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">d</span> <span style="color:#f92672">=</span> <span style="color:#111">{</span><span style="color:#d88200">&#34;k1&#34;</span><span style="color:#111">:</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#d88200">&#34;k2&#34;</span> <span style="color:#111">:</span><span style="color:#ae81ff">2</span> <span style="color:#111">,</span><span style="color:#d88200">&#34;k3&#34;</span><span style="color:#111">:</span><span style="color:#ae81ff">3</span><span style="color:#111">}</span>
+<span style="color:#00a8c8">for</span> <span style="color:#111">key</span><span style="color:#111">,</span><span style="color:#111">value</span> <span style="color:#f92672">in</span> <span style="color:#111">d</span><span style="color:#f92672">.</span><span style="color:#111">items</span><span style="color:#111">():</span>
+  <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#111">key</span> <span style="color:#111">,</span> <span style="color:#d88200">&#39;:&#39;</span><span style="color:#111">,</span> <span style="color:#111">value</span><span style="color:#111">)</span></code></pre></div>
+<ul>
+<li>why generators worked in python 2</li>
+<li>beacause they are intorcued in earlier years of python</li>
+<li>basically <em>generators</em> dont  store data in memory but yeilds the result as it goes through the itertable items</li>
+<li>originally python <code>items()</code> built a real list of tuples and returned that , this could potentially take a lot of memory</li>
+<li>After the generators were introducted to the language this method is reimplemeneted as a iterator generator method called <strong>iteritems()</strong>,
+the original remains backward compatible</li>
+<li>Pyhton changes is that now <strong>items()</strong> will return iterators and a list is never fully built and now <strong>iteritems()</strong> is also gone since <code>items()</code> is doing that job</li>
+</ul>
+
+<h1 id="while-loop">While loop</h1>
+
+<ul>
+<li>It is one of the general ways to perform iterration</li>
+<li>While statement will repeatedly excecute a single statement or a group of statements until the true value occurs</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">x</span> <span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+<span style="color:#00a8c8">while</span> <span style="color:#111">x</span><span style="color:#f92672">&lt;</span><span style="color:#ae81ff">10</span><span style="color:#111">:</span>
+  <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#d88200">&#34;x is&#34;</span> <span style="color:#111">,</span><span style="color:#111">x</span><span style="color:#111">)</span>
+  <span style="color:#111">x</span> <span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+<span style="color:#00a8c8">else</span><span style="color:#111">:</span>
+  <span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Finished !!!&#34;</span><span style="color:#111">)</span></code></pre></div>
+<h3 id="break-continue-pass">Break Continue Pass</h3>
+
+<ul>
+<li><p>we can use them to add additional functionality</p></li>
+
+<li><p><code>break</code> it will break the nearest enclosing loop</p></li>
+
+<li><p><code>continue</code> will continue executing the closest enclosing loop</p></li>
+
+<li><p><code>pass</code> does nothing at all</p></li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># It is like</span>
+
+<span style="color:#00a8c8">while</span> <span style="color:#111">test</span> <span style="color:#111">:</span> 
+  <span style="color:#00a8c8">if</span> <span style="color:#111">cond1</span> <span style="color:#111">:</span>
+    <span style="color:#00a8c8">break</span>
+  <span style="color:#00a8c8">if</span> <span style="color:#111">cond2</span> <span style="color:#111">:</span> 
+    <span style="color:#00a8c8">continue</span>
+<span style="color:#00a8c8">else</span> <span style="color:#111">:</span> 
+<span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Broke out&#34;</span><span style="color:#111">)</span></code></pre></div>
+<ul>
+<li>pass is like a null statement means nothing happiness</li>
+<li>difference betwwen  a comment and <em>pass</em> is that comment is entirely ignored but the pass is not by the interpreter</li>
+
+<li><p>suppose if you want a for loop but dont want o implement it yest you can use pass statement , same goes with methods and class</p>
+
+<h3 id="range">Range</h3></li>
+
+<li><p>It will return a list of numbers</p></li>
+
+<li><p>we can find the type of object using <code>type()</code></p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">a</span> <span style="color:#f92672">=</span> <span style="color:#111">range</span><span style="color:#111">(</span><span style="color:#ae81ff">0</span><span style="color:#111">,</span><span style="color:#ae81ff">10</span><span style="color:#111">)</span> <span style="color:#75715e"># will give numbers from 0 to 9</span>
+<span style="color:#75715e"># beacuse end is not included just like slicing</span>
+<span style="color:#75715e"># if we want give only one arg</span>
+<span style="color:#111">b</span> <span style="color:#f92672">=</span> <span style="color:#111">range</span><span style="color:#111">(</span><span style="color:#ae81ff">10</span><span style="color:#111">)</span> <span style="color:#75715e"># will give numbers from 0 to 9</span>
+<span style="color:#75715e"># we can also specify step size</span>
+<span style="color:#111">c</span> <span style="color:#f92672">=</span> <span style="color:#111">range</span><span style="color:#111">(</span><span style="color:#ae81ff">0</span><span style="color:#111">,</span><span style="color:#ae81ff">10</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">)</span> <span style="color:#75715e"># will give in intervals of 2</span>
+<span style="color:#111">type</span><span style="color:#111">(</span><span style="color:#111">a</span><span style="color:#111">)</span> <span style="color:#75715e"># will give a list</span></code></pre></div></li>
+
+<li><p>In python 2 <code>range()</code> will return a list of numbers which includes storing them in memory</p></li>
+
+<li><p>what if we want a billion numbers</p></li>
+
+<li><p>we cannot do that with range , it will create problems</p></li>
+
+<li><p>so solution is <code>xrange()</code> which will return an <em>generator</em></p></li>
+
+<li><p>genrator allows the genration of the objects and are provided at that instance , but it doesnt store every instance generated into memory</p></li>
+
+<li><p>that means genrate a billion numbers and provide them at that instance and toss them away</p></li>
+
+<li><p>so <code>xrange()</code> is a generator for numbers</p></li>
+
+<li><p>if you do <code>type(range(4))</code> will show <em>list</em> , but for <code>type(xrange(4))</code> ill show <em>xrange</em></p></li>
+
+<li><p>In python 3 there is no need for <em>xrange()</em> because <em>range()</em> is already a generator</p></li>
+</ul>
+
+<h3 id="list-comprehesions">List comprehesions</h3>
+
+<ul>
+<li>it allows us to build lists with different syntax , means using for loop</li>
+<li>Suppose if we want use for loop for constructing lists in traditional way</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">l</span> <span style="color:#f92672">=</span> <span style="color:#111">[]</span>
+<span style="color:#00a8c8">for</span> <span style="color:#111">item</span> <span style="color:#f92672">in</span> <span style="color:#d88200">&#34;manoj&#34;</span><span style="color:#111">:</span>
+  <span style="color:#111">l</span><span style="color:#f92672">.</span><span style="color:#111">append</span><span style="color:#111">(</span><span style="color:#111">item</span><span style="color:#111">)</span></code></pre></div>
+<ul>
+<li>which is a tedious way</li>
+<li>By list compreshension method we can use</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">list</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#111">item</span> <span style="color:#00a8c8">for</span> <span style="color:#111">item</span> <span style="color:#f92672">in</span> <span style="color:#d88200">&#34;manoj&#34;</span><span style="color:#111">]</span></code></pre></div>
+<ul>
+<li>this means take the item from iteratble and fill the list with it</li>
+<li>examples</li>
+<li>build a list of sqaures for 10 numbers</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">squares</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#111">item</span><span style="color:#f92672">**</span><span style="color:#ae81ff">2</span> <span style="color:#00a8c8">for</span> <span style="color:#111">item</span> <span style="color:#f92672">in</span> <span style="color:#111">range</span><span style="color:#111">(</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">11</span><span style="color:#111">)]</span>
+<span style="color:#75715e"># we can even nest them</span>
+
+<span style="color:#111">new_squares</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#111">item</span><span style="color:#f92672">**</span><span style="color:#ae81ff">2</span> <span style="color:#00a8c8">for</span> <span style="color:#111">item</span> <span style="color:#f92672">in</span> <span style="color:#111">(</span><span style="color:#111">item</span><span style="color:#f92672">**</span><span style="color:#ae81ff">2</span> <span style="color:#00a8c8">for</span> <span style="color:#111">item</span> <span style="color:#f92672">in</span> <span style="color:#111">range</span><span style="color:#111">(</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">10</span><span style="color:#111">))]</span></code></pre></div>
+<ul>
+<li>Convert celsius to fahrenheit</li>
+</ul>
+
+<pre><code>formula
+fah = cel(9/5) + 32
+</code></pre>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">celsius</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#ae81ff">10</span><span style="color:#111">,</span><span style="color:#ae81ff">20</span><span style="color:#111">,</span><span style="color:#ae81ff">40</span><span style="color:#111">,</span><span style="color:#ae81ff">50</span><span style="color:#111">]</span>
+<span style="color:#111">fah</span> <span style="color:#f92672">=</span> <span style="color:#111">[(</span><span style="color:#111">temp</span><span style="color:#111">)</span><span style="color:#f92672">*</span><span style="color:#111">(</span><span style="color:#ae81ff">9</span><span style="color:#f92672">/</span><span style="color:#ae81ff">5.0</span><span style="color:#111">)</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">32</span> <span style="color:#00a8c8">for</span> <span style="color:#111">temp</span> <span style="color:#f92672">in</span> <span style="color:#111">celsius</span><span style="color:#111">]</span></code></pre></div>
+
+    
+    
+        <div class="chevrons">
+    <div id="navigation">
+<a class="nav nav-prev" href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/objects_ds_basics/sets_booleans/" title="Sets_booleans"> <i class="fa fa-chevron-left"></i><label>Sets_booleans</label></a>
+    <a class="nav nav-next" href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/functions_methods/" title="Functions" style="margin-right: 0px;"><label>Functions</label><i class="fa fa-chevron-right"></i></a></div>
+  </div>
+
+  </section>
+</article>
+
+<footer>
+
+<div class="footline">
+    
+
+    
+
+    
+    <div class="date">
+        <i class='fa fa-calendar'></i> Last update on 08/12/2018
+    </div>
+    
+
+    
+    <div class="github-link">
+      <a href="https://github.com/tmkmanoj12/doc/edit/master/content/technical/languages/python/tutorials/bootcamp_zero_to_hero/statements.md" target="blank"><i class="fa fa-code-fork"></i>
+        Improve this page</a>
+    </div>
+    
+  </div>
+
+
+	<div>
+
+
+  
+    Create a content/_footer.md file to customize the footer content
+  
+
+
+
+	</div>
+</footer>
+
+<script src="/doc/js/clipboard.min.js"></script>
+
+<link href="/doc/css/featherlight.min.css" rel="stylesheet">
+<script src="/doc/js/featherlight.min.js"></script>
+
+
+
+<script src="/doc/theme-flex/script.js"></script>
+
+
+    
+
+    
+    
+
+    
+  </body>
+</html>

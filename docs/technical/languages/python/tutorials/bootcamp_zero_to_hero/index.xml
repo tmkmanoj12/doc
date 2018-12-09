@@ -23,5 +23,71 @@
  both they are very similar with key differences  Majority of people are using python 2.</description>
     </item>
     
+    <item>
+      <title>Statements</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/statements/</link>
+      <pubDate>Sat, 08 Dec 2018 08:22:18 +0000</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/statements/</guid>
+      <description>Other languages  if(a&amp;gt;b){ a = 2 b = 4 }   In python  if a&amp;gt;b : a = 2 b = 4  pyhton gets rid of () and {} and incorporates two things one colon(:) and a whitespace
+ colon is used to end a statement and white space is ued to indent what happens in case of that statement has to be exceuted</description>
+    </item>
+    
+    <item>
+      <title>Functions</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/functions_methods/</link>
+      <pubDate>Sat, 08 Dec 2018 16:00:37 +0530</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/functions_methods/</guid>
+      <description>Methods are fucntions built into objects  Functions  Useful device that groups together a set of statements so that they can be run more than once they also let us specify input parameters that can serve as inputs to functions Function allows us not repeat the code again and again def is a keyword to tell python we are about to create a function Naming rules are same as naming rules of variable  def add(): &amp;#34;&amp;#34;&amp;#34; This is a muliline coment &amp;#34;&amp;#34;&amp;#34; return &amp;#34;manoj&amp;#34;  so this multi line comment acts as a docstring when you run help on the method , that means it serves as a documention for function Write a function which tells whether the number is prime or not  def isPrime(num): for item in range(2,num): if num%item ==0: print &amp;#34;Not a Prime&amp;#34; break else : print &amp;#34;Prime&amp;#34;  Better method  import math def is_prime(num): &amp;#39;&amp;#39;&amp;#39; Better method of checking for primes.</description>
+    </item>
+    
+    <item>
+      <title>Scope</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/scope/</link>
+      <pubDate>Sun, 09 Dec 2018 10:22:12 +0000</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/scope/</guid>
+      <description>How python deals with variable names when create a variable in python the variable name is stored in namespace variable names also have a scope This scope of a variable name decides the visibility of the variable to the other parts of code  x = 50 def dummy(): x =25 return x print x # will print 50 print dummy # will print 25  so we have two different x so how does python know what x to refer to in each statement this is where scope comes(rules)  Rules  Name Assignments will create or change local names by default Name references search at most 4 scopes</description>
+    </item>
+    
+    <item>
+      <title>Oops</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/oops/</link>
+      <pubDate>Sun, 09 Dec 2018 10:53:15 +0000</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/oops/</guid>
+      <description>list is an object (everything is an object in python) we can have methods on list  l = [1,2,3] l.count() #3  we can use type() to check the typeof object  l = [1,2,3] a = 2 b = &amp;#34;manoj&amp;#34; tup = (1,2,3) d = {&amp;#34;k1&amp;#34;:1} lamb = lambda x: x**2 def func(): pass type(a) # int type(b) # str type(tup) # tuple type(d) # dict type(l) # list type(lamb) # function means object of type function type(func) # function  how can we create our own object types thats why we use class keyword  class  we can own object types using class keyword class is like blueprint that defines nature of the objects created with it from this classes we can construct instances an instance is a specific object created for a particular class</description>
+    </item>
+    
+    <item>
+      <title>Exception_handling</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/exception_handling/</link>
+      <pubDate>Sun, 09 Dec 2018 12:48:05 +0000</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/exception_handling/</guid>
+      <description>For eg : syntax errors it is a specfic description of types of error Even statement is syntactically correct , while exceuting it may cause error just like try catch in other languages here our syntax is try , except , finally  try : do something except Exception1 : exceute this except Exception2 : exceute this else : if there is no exception exceute this finally : exceute afte reverything is done   Built In Exceptions  try: a = open(&amp;#34;test1.</description>
+    </item>
+    
+    <item>
+      <title>Modules</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/modules/</link>
+      <pubDate>Sun, 09 Dec 2018 19:04:02 +0530</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/modules/</guid>
+      <description> if we want to import a module  import module_name   import math math.sqrt(4)  all math related functionalities are in math module  from math import sqrt # instead of importing everything import only specific sqrt(4)  all import statements should be top of your code what if we want to download exteral module anaconda already did that for us if we still want  conda install *module name*conda install flask  what if anaconda doesnot have that package we can use pip python management sysytem which allows us to install packages from Internet  </description>
+    </item>
+    
+    <item>
+      <title>Bulitin_functions</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/bulitin_functions/</link>
+      <pubDate>Sun, 09 Dec 2018 21:47:56 +0530</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/bulitin_functions/</guid>
+      <description>Map  it takes two arguments  function sequence  map will run the given function against each element in sequence  def convertTemp(temp): return ((temp)*9/5.0) + 32 l = [10,20,30] map(convertTemp,l)  this is just like map in JS
+ we can pass lambda expressions also
+  map(lambda x: x*(9/5.0)+32),[10,20,30,40])a = [1,2,3] b = [4,5,6] c = [7,8,9] map(lambda x,y: x+y,a,b)  the main thing is it will take 0th index in a and 0th index of b and apply lambda function and again it will take 1st index of a and 1st index of b and aply lambda function</description>
+    </item>
+    
   </channel>
 </rss>
