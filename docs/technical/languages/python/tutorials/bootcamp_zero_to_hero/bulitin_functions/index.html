@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2018-12-09T22:26:21 IST">
+<meta name="revised" content="2018-12-10T22:09:41 IST">
 <title>Bulitin_functions :: Manoj Documentation</title>
 <link rel="shortcut icon" href="/doc/images/favicon.png" type="image/x-icon" />
 <link href="/doc/css/font-awesome.min.css" rel="stylesheet">
@@ -288,6 +288,20 @@
           </a><i class="fa fa-circle-thin read-icon"></i>
         </div>
     </li>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/decorators/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/decorators/">
+            <b>10. </b>Decorators
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/iterators_generators/" class="dd-item">
+        <div>
+          <a href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/iterators_generators/">
+            <b>11. </b>Iterators_generators
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
         </ul>
     </li>
         </ul>
@@ -478,6 +492,8 @@
       <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/exception_handling/" >----- Exception_handling</option>
       <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/modules/" >----- Modules</option>
       <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/bulitin_functions/"  selected>----- Bulitin_functions</option>
+      <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/decorators/" >----- Decorators</option>
+      <option value="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/iterators_generators/" >----- Iterators_generators</option>
   
   
   
@@ -613,8 +629,127 @@
 <h4 id="zip">Zip</h4>
 
 <ul>
-<li>zip makes an iterator that aggregates the elements from each iterables</li>
+<li><p>zip makes an iterator that aggregates the elements from each iterables</p></li>
+
+<li><p>suppose you have 2 lists</p></li>
 </ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">l1</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#ae81ff">1</span><span style="color:#111">,</span><span style="color:#ae81ff">2</span><span style="color:#111">,</span><span style="color:#ae81ff">3</span><span style="color:#111">]</span>
+<span style="color:#111">l2</span>  <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#ae81ff">4</span><span style="color:#111">,</span><span style="color:#ae81ff">5</span><span style="color:#111">,</span><span style="color:#ae81ff">6</span><span style="color:#111">]</span>
+<span style="color:#111">zip</span><span style="color:#111">(</span><span style="color:#111">l1</span><span style="color:#111">,</span><span style="color:#111">l1</span><span style="color:#111">)</span> <span style="color:#75715e">#[(1,4),(2,5),(3,6)]</span></code></pre></div>
+<ul>
+<li><p>the above will create a list of tuples</p></li>
+
+<li><p>suppose if we want the highest of two for each index in the lists</p></li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">x</span> <span style="color:#f92672">=</span><span style="color:#111">[</span><span style="color:#ae81ff">13123</span><span style="color:#111">,</span><span style="color:#ae81ff">223424</span><span style="color:#111">,</span><span style="color:#ae81ff">3534567</span><span style="color:#111">,</span><span style="color:#ae81ff">4123</span><span style="color:#111">,</span><span style="color:#ae81ff">624</span><span style="color:#111">,</span><span style="color:#ae81ff">2347</span><span style="color:#111">,</span><span style="color:#ae81ff">5468</span><span style="color:#111">]</span>
+<span style="color:#111">y</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#ae81ff">1123</span><span style="color:#111">,</span><span style="color:#ae81ff">52456</span><span style="color:#111">,</span><span style="color:#ae81ff">513135</span><span style="color:#111">,</span><span style="color:#ae81ff">6512</span><span style="color:#111">,</span><span style="color:#ae81ff">536</span><span style="color:#111">]</span>
+
+<span style="color:#00a8c8">for</span> <span style="color:#111">pair</span> <span style="color:#f92672">in</span> <span style="color:#111">zip</span><span style="color:#111">(</span><span style="color:#111">z</span><span style="color:#111">,</span><span style="color:#111">y</span><span style="color:#111">)</span>
+    <span style="color:#00a8c8">print</span> <span style="color:#111">max</span><span style="color:#111">(</span><span style="color:#111">pair</span><span style="color:#111">)</span>
+<span style="color:#111">map</span><span style="color:#111">(</span><span style="color:#00a8c8">lambda</span> <span style="color:#111">pair</span> <span style="color:#111">:</span> <span style="color:#111">max</span><span style="color:#111">(</span><span style="color:#111">pair</span><span style="color:#111">),</span><span style="color:#111">zip</span><span style="color:#111">(</span><span style="color:#111">x</span><span style="color:#111">,</span><span style="color:#111">y</span><span style="color:#111">))</span> <span style="color:#75715e"># will create a list [13123, 223424, 3534567, 6512, 624]</span></code></pre></div>
+<ul>
+<li>why only 5 were created beacuse priority will be given to the smaller list</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">d1</span> <span style="color:#f92672">=</span> <span style="color:#111">{</span><span style="color:#d88200">&#39;a&#39;</span> <span style="color:#111">:</span> <span style="color:#ae81ff">1</span> <span style="color:#111">,</span> <span style="color:#d88200">&#39;b&#39;</span><span style="color:#111">:</span><span style="color:#ae81ff">2</span><span style="color:#111">}</span>
+<span style="color:#111">d2</span>  <span style="color:#f92672">=</span> <span style="color:#111">{</span><span style="color:#d88200">&#39;c&#39;</span><span style="color:#111">:</span> <span style="color:#ae81ff">3</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;d&#39;</span><span style="color:#111">:</span><span style="color:#ae81ff">4</span><span style="color:#111">}</span>
+
+<span style="color:#111">zip</span><span style="color:#111">(</span><span style="color:#111">d1</span><span style="color:#111">,</span><span style="color:#111">d2</span><span style="color:#111">)</span> <span style="color:#75715e"># [(&#39;a&#39;, &#39;c&#39;), (&#39;b&#39;, &#39;d&#39;)]</span></code></pre></div>
+<ul>
+<li>where the values gone ??</li>
+<li>beacuse iterating through the dictionaries will only give you the keys</li>
+<li>what if we want key values both - iteritems()</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">d1</span> <span style="color:#f92672">=</span> <span style="color:#111">{</span><span style="color:#d88200">&#39;a&#39;</span> <span style="color:#111">:</span> <span style="color:#ae81ff">1</span> <span style="color:#111">,</span> <span style="color:#d88200">&#39;b&#39;</span><span style="color:#111">:</span><span style="color:#ae81ff">2</span><span style="color:#111">}</span>
+<span style="color:#111">d2</span>  <span style="color:#f92672">=</span> <span style="color:#111">{</span><span style="color:#d88200">&#39;c&#39;</span><span style="color:#111">:</span> <span style="color:#ae81ff">3</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;d&#39;</span><span style="color:#111">:</span><span style="color:#ae81ff">4</span><span style="color:#111">}</span>
+
+<span style="color:#111">zip</span><span style="color:#111">(</span><span style="color:#111">d1</span><span style="color:#f92672">.</span><span style="color:#111">iteritems</span><span style="color:#111">(),</span><span style="color:#111">d2</span><span style="color:#f92672">.</span><span style="color:#111">iteritems</span><span style="color:#111">())</span> <span style="color:#75715e"># [((&#39;a&#39;, 1), (&#39;c&#39;, 3)), ((&#39;b&#39;, 2), (&#39;d&#39;, 4))]</span></code></pre></div>
+<ul>
+<li>suppose if you want only values you can use <code>itervalues()</code> in python 2 and <code>values()</code> in pyhton 3</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">d1</span> <span style="color:#f92672">=</span> <span style="color:#111">{</span><span style="color:#d88200">&#39;a&#39;</span> <span style="color:#111">:</span> <span style="color:#ae81ff">1</span> <span style="color:#111">,</span> <span style="color:#d88200">&#39;b&#39;</span><span style="color:#111">:</span><span style="color:#ae81ff">2</span><span style="color:#111">}</span>
+<span style="color:#111">d2</span>  <span style="color:#f92672">=</span> <span style="color:#111">{</span><span style="color:#d88200">&#39;c&#39;</span><span style="color:#111">:</span> <span style="color:#ae81ff">3</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;d&#39;</span><span style="color:#111">:</span><span style="color:#ae81ff">4</span><span style="color:#111">}</span>
+
+<span style="color:#111">zip</span><span style="color:#111">(</span><span style="color:#111">d1</span><span style="color:#f92672">.</span><span style="color:#111">itervalues</span><span style="color:#111">(),</span><span style="color:#111">d2</span><span style="color:#f92672">.</span><span style="color:#111">itervalues</span><span style="color:#111">()</span></code></pre></div>
+<ul>
+<li>suppose if you want to switch the values in 1st dictionary to second values</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">d1</span> <span style="color:#f92672">=</span> <span style="color:#111">{</span><span style="color:#d88200">&#39;a&#39;</span> <span style="color:#111">:</span> <span style="color:#ae81ff">1</span> <span style="color:#111">,</span> <span style="color:#d88200">&#39;b&#39;</span><span style="color:#111">:</span><span style="color:#ae81ff">2</span><span style="color:#111">}</span>
+<span style="color:#111">d2</span>  <span style="color:#f92672">=</span> <span style="color:#111">{</span><span style="color:#d88200">&#39;c&#39;</span><span style="color:#111">:</span> <span style="color:#ae81ff">3</span><span style="color:#111">,</span> <span style="color:#d88200">&#39;d&#39;</span><span style="color:#111">:</span><span style="color:#ae81ff">4</span><span style="color:#111">}</span>
+
+<span style="color:#00a8c8">def</span> <span style="color:#75af00">switch_values</span><span style="color:#111">(</span><span style="color:#111">d1</span><span style="color:#111">,</span><span style="color:#111">d2</span><span style="color:#111">):</span>
+    <span style="color:#00a8c8">for</span> <span style="color:#111">d1_key</span><span style="color:#111">,</span><span style="color:#111">d2_value</span> <span style="color:#f92672">in</span> <span style="color:#111">zip</span><span style="color:#111">(</span><span style="color:#111">d1</span><span style="color:#111">,</span><span style="color:#111">d2</span><span style="color:#f92672">.</span><span style="color:#111">itervalues</span><span style="color:#111">()):</span>
+        <span style="color:#111">d1</span><span style="color:#111">[</span><span style="color:#111">d1_key</span><span style="color:#111">]</span> <span style="color:#f92672">=</span> <span style="color:#111">d2_value</span>
+    <span style="color:#00a8c8">print</span> <span style="color:#111">d1</span></code></pre></div>
+<ul>
+<li>if one iterable is shorter than other shoter will be given preference and result will be of that length</li>
+</ul>
+
+<h4 id="enumerate">Enumerate</h4>
+
+<ul>
+<li>extremely useful function</li>
+<li>it allows you to keep a count while iterating through object</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">l</span> <span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#d88200">&#34;a&#34;</span><span style="color:#111">,</span><span style="color:#d88200">&#34;b&#34;</span><span style="color:#111">,</span><span style="color:#d88200">&#34;c&#34;</span><span style="color:#111">]</span>
+<span style="color:#111">count</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+<span style="color:#00a8c8">for</span> <span style="color:#111">item</span> <span style="color:#f92672">in</span> <span style="color:#111">l</span><span style="color:#111">:</span>
+    <span style="color:#00a8c8">print</span> <span style="color:#111">item</span>
+    <span style="color:#00a8c8">print</span> <span style="color:#111">count</span>
+    <span style="color:#111">count</span><span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span></code></pre></div>
+<ul>
+<li>the above is not necessary</li>
+<li>enumerate returns a tuple</li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#00a8c8">for</span> <span style="color:#111">(</span><span style="color:#111">count</span> <span style="color:#111">,</span> <span style="color:#111">item</span> <span style="color:#111">)</span> <span style="color:#f92672">in</span> <span style="color:#111">enumerate</span><span style="color:#111">(</span><span style="color:#111">l</span><span style="color:#111">):</span>
+    <span style="color:#00a8c8">print</span> <span style="color:#111">(</span><span style="color:#111">count</span><span style="color:#111">,</span><span style="color:#111">item</span><span style="color:#111">)</span>
+
+<span style="color:#00a8c8">for</span> <span style="color:#111">(</span><span style="color:#111">count</span><span style="color:#111">,</span> <span style="color:#111">item</span><span style="color:#111">)</span> <span style="color:#f92672">in</span> <span style="color:#111">enumerate</span><span style="color:#111">(</span><span style="color:#111">l</span><span style="color:#111">):</span>
+    <span style="color:#00a8c8">if</span> <span style="color:#111">count</span><span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">2</span><span style="color:#111">:</span>
+        <span style="color:#00a8c8">break</span>
+    <span style="color:#00a8c8">else</span> <span style="color:#111">:</span>
+        <span style="color:#00a8c8">print</span> <span style="color:#111">item</span></code></pre></div>
+<h2 id="all-and-any">all() and any()</h2>
+
+<ul>
+<li><p>they allow us to conviniently check for boolean matching in an interable</p></li>
+
+<li><p>all () - will return true if all the elements in the iterable are true</p></li>
+
+<li><p>any () - will return true if atleast one element is true</p></li>
+
+<li><p>our own implementation</p></li>
+</ul>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#00a8c8">def</span> <span style="color:#75af00">all</span><span style="color:#111">(</span><span style="color:#111">iterable</span><span style="color:#111">):</span>
+    <span style="color:#00a8c8">for</span> <span style="color:#111">item</span> <span style="color:#f92672">in</span> <span style="color:#111">iterable</span><span style="color:#111">:</span>
+        <span style="color:#00a8c8">if</span> <span style="color:#f92672">not</span> <span style="color:#111">element</span><span style="color:#111">:</span>
+                 <span style="color:#111">False</span>
+    <span style="color:#00a8c8">return</span> <span style="color:#111">True</span>
+
+<span style="color:#00a8c8">def</span> <span style="color:#75af00">any</span><span style="color:#111">(</span><span style="color:#111">iterable</span><span style="color:#111">):</span>
+    <span style="color:#00a8c8">for</span> <span style="color:#111">item</span> <span style="color:#f92672">in</span> <span style="color:#111">iterable</span><span style="color:#111">:</span>
+        <span style="color:#00a8c8">if</span> <span style="color:#111">element</span> <span style="color:#111">:</span> 
+            <span style="color:#00a8c8">return</span> <span style="color:#111">True</span>
+    <span style="color:#00a8c8">else</span> <span style="color:#111">False</span></code></pre></div><div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#111">l</span><span style="color:#f92672">=</span> <span style="color:#111">[</span><span style="color:#111">True</span><span style="color:#111">,</span><span style="color:#111">False</span><span style="color:#111">,</span><span style="color:#111">True</span><span style="color:#111">]</span>
+<span style="color:#111">all</span><span style="color:#111">(</span><span style="color:#111">l</span><span style="color:#111">)</span> <span style="color:#75715e"># False</span>
+<span style="color:#111">any</span><span style="color:#111">(</span><span style="color:#111">l</span><span style="color:#111">)</span> <span style="color:#75715e"># True</span></code></pre></div>
+<h3 id="complex">complex()</h3>
+
+<ul>
+<li>will return a complex number with real and imaginary part (a+ib)</li>
+
+<li><p>it ca take string or number to  to form complex number</p></li>
+
+<li><p>suppose if the first paramater is a string , then you dont call it second parameter</p>
+
+<ul>
+<li>the second parameter can never be a string</li>
+<li>Each argument may be a numberic type(inlcuding complex) and if you dont give imaginary it will default to zero which will act as numeric conversion like int or float</li>
+</ul></li>
+</ul>
+
+<p>```python
+ complex(2,3) #2+3j
+ complex(&lsquo;2+3j&rsquo;)  # 2+3j</p>
 
 
     
@@ -622,7 +757,7 @@
         <div class="chevrons">
     <div id="navigation">
 <a class="nav nav-prev" href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/modules/" title="Modules"> <i class="fa fa-chevron-left"></i><label>Modules</label></a>
-    <a class="nav nav-next" href="/doc/technical/web-domain/" title="Web-Domain" style="margin-right: 0px;"><label>Web-Domain</label><i class="fa fa-chevron-right"></i></a></div>
+    <a class="nav nav-next" href="/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/decorators/" title="Decorators" style="margin-right: 0px;"><label>Decorators</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 
   </section>

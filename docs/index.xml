@@ -222,5 +222,23 @@ a = open(&amp;#39;test.txt)a.read() if you do a read again you will get an empty
   map(lambda x: x*(9/5.0)+32),[10,20,30,40])a = [1,2,3] b = [4,5,6] c = [7,8,9] map(lambda x,y: x+y,a,b)  the main thing is it will take 0th index in a and 0th index of b and apply lambda function and again it will take 1st index of a and 1st index of b and aply lambda function</description>
     </item>
     
+    <item>
+      <title>Decorators</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/decorators/</link>
+      <pubDate>Mon, 10 Dec 2018 20:47:26 +0530</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/decorators/</guid>
+      <description>decorators can be thought as functions which modify the functionality of a function  we can get globals and locals anywhere by calling globals() and locals() those objects will comes as dictionary we can get the keys of them by globals().keys()   print globals().keys()def func(): print locals() # {} beacuse there are no locals return 1 print func() #1  in python each fuction will have its sperate namespace means scope  def hello(name = &amp;#34;manoj&amp;#34;): print &amp;#39;Hello &amp;#39; + name hello() # Hello manoj # since everything is an object in python we can assign funtions to variables greet = hello greet() # Hello manoj del hello # what if i delete hello now  # will hello work ?</description>
+    </item>
+    
+    <item>
+      <title>Iterators_generators</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/iterators_generators/</link>
+      <pubDate>Mon, 10 Dec 2018 15:51:26 +0000</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/iterators_generators/</guid>
+      <description>generator function allows us to write a function that can send back the value and then later resume to pickup where it left off this type of function in python is a generator allowing us to generate a sequence of values over time main difference in syntax will be the use of yield statement generator functin will look like an normal function but the main difference is when a generator function is compiled they become the object that support an iteration protocol that means when they are called in your code they dont actually return a value and exit generator functions will automatically suspend and resume excecution and state around the last point of value generation the main advantage is instead of having to compute an entire series of values upfront , generator functions can be suspended, this is called state suspension  Why use generators  they useful for calculating large sets of results(particularly that involve calculations in the loops themselves) , where we dont want to allocate the memory yfor all the results at the same time</description>
+    </item>
+    
   </channel>
 </rss>
