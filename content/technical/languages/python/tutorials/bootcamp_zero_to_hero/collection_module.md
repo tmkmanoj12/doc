@@ -1,8 +1,8 @@
 ---
 title: "Collection_module"
 date: 2018-12-11T11:08:42+05:30
-weight: 1
-pre: <b>. </b>
+weight: 12
+pre: <b>12. </b>
 chapter: false
 ---
 

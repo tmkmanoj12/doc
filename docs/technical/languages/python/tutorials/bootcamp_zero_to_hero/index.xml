@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>Collection_module</title>
-      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/collection_module/</link>
-      <pubDate>Tue, 11 Dec 2018 11:08:42 +0530</pubDate>
-      
-      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/collection_module/</guid>
-      <description>Counters  counter is actually a dictionary sub class which allows us to count hashable objects  from collections import Counter l = [1,2,2,1,3,4,5,5,3,3,45,6,7,1,2] Counter(l) #Counter({1: 3, 2: 3, 3: 3, 4: 1, 5: 2, 6: 1, 7: 1, 45: 1})  so the call to Counter method will count how many times each element exists so it returns a dictionary we can also count in a string  from collections import Counter s = &amp;#34;sssddjsjdhsjdhasjdhajsaasaasjdakfsijfhjkehfjkh&amp;#34; Counter(s)  Count how many times each word shows up in a sentence  from collections import Counter s = &amp;#34;How may times the word show up up manoj manoj&amp;#34; k = s.</description>
-    </item>
-    
-    <item>
       <title>Introduction</title>
       <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/introduction/</link>
       <pubDate>Mon, 03 Dec 2018 19:34:33 +0530</pubDate>
@@ -114,6 +105,15 @@
       
       <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/iterators_generators/</guid>
       <description>generator function allows us to write a function that can send back the value and then later resume to pickup where it left off this type of function in python is a generator allowing us to generate a sequence of values over time main difference in syntax will be the use of yield statement generator functin will look like an normal function but the main difference is when a generator function is compiled they become the object that support an iteration protocol that means when they are called in your code they dont actually return a value and exit generator functions will automatically suspend and resume excecution and state around the last point of value generation the main advantage is instead of having to compute an entire series of values upfront , generator functions can be suspended, this is called state suspension  Why use generators  they useful for calculating large sets of results(particularly that involve calculations in the loops themselves) , where we dont want to allocate the memory yfor all the results at the same time</description>
+    </item>
+    
+    <item>
+      <title>Collection_module</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/collection_module/</link>
+      <pubDate>Tue, 11 Dec 2018 11:08:42 +0530</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/collection_module/</guid>
+      <description>Counters  counter is actually a dictionary sub class which allows us to count hashable objects  from collections import Counter l = [1,2,2,1,3,4,5,5,3,3,45,6,7,1,2] Counter(l) #Counter({1: 3, 2: 3, 3: 3, 4: 1, 5: 2, 6: 1, 7: 1, 45: 1})  so the call to Counter method will count how many times each element exists so it returns a dictionary we can also count in a string  from collections import Counter s = &amp;#34;sssddjsjdhsjdhasjdhajsaasaasjdakfsijfhjkehfjkh&amp;#34; Counter(s)  Count how many times each word shows up in a sentence  from collections import Counter s = &amp;#34;How may times the word show up up manoj manoj&amp;#34; k = s.</description>
     </item>
     
   </channel>
