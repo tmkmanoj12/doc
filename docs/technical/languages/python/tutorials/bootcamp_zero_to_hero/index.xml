@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Collection_module</title>
+      <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/collection_module/</link>
+      <pubDate>Tue, 11 Dec 2018 11:08:42 +0530</pubDate>
+      
+      <guid>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/collection_module/</guid>
+      <description>Counters  counter is actually a dictionary sub class which allows us to count hashable objects  from collections import Counter l = [1,2,2,1,3,4,5,5,3,3,45,6,7,1,2] Counter(l) #Counter({1: 3, 2: 3, 3: 3, 4: 1, 5: 2, 6: 1, 7: 1, 45: 1})  so the call to Counter method will count how many times each element exists so it returns a dictionary we can also count in a string  from collections import Counter s = &amp;#34;sssddjsjdhsjdhasjdhajsaasaasjdakfsijfhjkehfjkh&amp;#34; Counter(s)  Count how many times each word shows up in a sentence  from collections import Counter s = &amp;#34;How may times the word show up up manoj manoj&amp;#34; k = s.</description>
+    </item>
+    
+    <item>
       <title>Introduction</title>
       <link>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/introduction/</link>
       <pubDate>Mon, 03 Dec 2018 19:34:33 +0530</pubDate>
