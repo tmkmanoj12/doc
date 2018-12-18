@@ -6,7 +6,7 @@ pre: <b>3. </b>
 chapter: false
 ---
 
-- The primary goal of excersice is that it brings about muscualr contradiction
+- The primary goal of excersice is that it brings about muscular contradiction
 - the heart will go thorugh major adaptation based on the training that you subject your body to
 - latest studies shows that sitting or plain inactivity characterized by lack of muscualr contradiction is a independent risk factor to delevloping 
 lifestyle diseases like obesity  , diabeties , heart disease disc prolapse , hernia , blood pressure,  arthiritis, cancer and everything in between 
@@ -51,3 +51,79 @@ lifestyle diseases like obesity  , diabeties , heart disease disc prolapse , her
 - Now atheletic training or even recreational exercise can bring about the same adaptation - enlarged heart
 - The difference is that people who workout , the heart enlarges beacuse it gets bigger in size , strength and vascularity and in  sedentary folk it enlarges to make up for the lack of exact same things
 - the enlarged heart in people who work out regulary is also called atheletes heart and is charaterized by low or normal BP levels and low body fat levels
+
+#### Energy systems of our body
+- before starting the excersice you need to understand the energy systems
+- Body produces energy in 3 ways to carry out any task / activity /excersice
+- The intensity of your acitvity decides which energy will dominate
+- depending on the task one will work more than other
+    - Aerobic system
+    - Anaerobic systems
+        - Glycogen lactic acid system
+        - ATP-CP system
+- The aerobic system follows aerobic pathway and that means muscles get to use oxygen 
+- This pathway was developed to carry out tasks that go on for a long time
+- For example to equip you with the stamina to walk from one village to another or from home to school etc or long distance running
+- so this system can help you carry out tasks that not high intensity but of high voulme
+- almost every day activities are aerobic activities
+- The ATP- CTP , glycogen lactic acid system follow the anerobic pathway which means they function in the absence of oxygen
+- It doesnot mean there is no oxygen avaialable
+- It means the task was completed so fast that oxygen coulnt reach the working muscle group
+- Working without oxygen means that muscles will be able to work for a very short duration of time beacuse there is only so much you can sustain in the abscence of oxygen
+- Since they last for very short period of time , they can carry really high intensity tasks
+- Why human body is designed in such a way beacuse there are a lot high intensity tasks that we need to carry during short period of duration
+- for eg : slapping someone out of anger
+- There  are a whole lot of different enzymes , fuel substrates, electron trainsfer systems,muscle fibre types,genetics, and environment factors etc.
+- but we need to understand fuel and msucle type to get the most of our workout/ results.
+
+#### Fuel and muscle type
+- Now when you say body should be toned , you mean that you need to develop more muscle mass thatt you currently have
+- because you know that muscle is only the metabolic active tissue which revs up your metabolism, burns fat ,makes you look young , attractive hot and keeps you fertile
+- Muslcle is divided into two types
+    - oxidative (or red or slow twich or Type1) muscle fibres
+    - non-oxidative (or white or fast twicth or Type 2) muscle fibres
+- Type 2 is divided into 2 types
+    - Type2a
+    - Type2b
+- The aerobic system employs the Type 1 or slow twitch muscle fibres that can contract and carry out work for longer periods of time , since it opertes in the presence of the oxygen
+- It can burn below as fuel to drive energy
+    - carbohydrate
+    - protein
+    - fat 
+- They have a lot of mitochondria things which help you in oxidize dat and also give it the red appearance
+
+> Type 1 / Slow Twitch/ Red - Low Intensity /Long Duration aeroic  - Carb , protein /Fat as fuel
+
+- Type 2 ot the Fast Twitch muscle fibres dont have much mitochondria so they work when you are using the anerobic energy system
+- Since they dont have  too much mitochondria or myoglobin (the cousin of heamoglobin and found inside muscle tissue like Hb the myoglobin binds to oxygen too forming O2 - myoglobin) they appear less red or in fact white
+- the glycogen-lactic acid systems employs the Type 2 a muscle fibres and as the name sugeests they use carbs in the form of glycogen stored in muscle and liver as fuel
+- Type 2a are the most verstatile muscle fibres and keep the ability to use /generate forces both aerobically and anerobically
+- The ATP-CP or the alactic acid system employs the Type 2 b fibre type and uses the stored and ready to use energy molecule Adesonisine Tiphosphate to produce real quick energy in short span of time
+
+>Type 2 /Fast twitch /White - High Intensity / Short Duration - Glycogen /ATP as fuel
+
+#### Types of Fuel
+- There are 3 types of sources of energy that the body uses
+    - ATP-CP
+    - Carbs
+    - Fats
+    - Proteins
+
+- __ATP-CP__
+    - Adenosine Tri Phosphate is readily avaialable and stored molecule in our muscles
+    - I consists of adenosine component and 3 High energy phosphate groups can be represented as
+
+    " Adenosine"  <====> (P) <====>(P) <====>(P)
+    - when the muscles need energy they break down one of the phosphate bonds resulting in 1 ADP molecule , a free phosphate and significant amount of energy
+    - Another chemical that provides stored energy is Creatine Phosphate (CP)
+    - However the cells cant use  CP directly , but instead use if for conversion of ADP to ATP , Like ATP , CP is also in short supply and needs to be constantly resybthesixed
+    - The ATP-CP cycle is not dependednt in the presence of oxygen and is therefore extremenly important for anerobic type of activities
+    - Beacuse it is readily available in muscules for use , the body relies on this when it has to perform any task quickly in short duration of time
+- __Carbs__
+    - Carbs from food are broken down into glucose , which is transported through blood and stored in muscles and liver as glycogen (cluster of glucose molecules)
+    - In the absence of oxygen (anerobic mettabolism) , 1 glucose molecule at a time from glycogen is broken down into an intermediate product called pyruvic and then lactic acid and this reaction generates ATP( 2 molecule of ATP for 1 molecule of glucose)
+    - In the presence of oxygen (aerobic metabolism),the pyruvic acid doesnot get coverted to lactic acid instead after a series od reactions , to carbon dioxide and water puls 36 molecules of ATP
+    - So Aerobically more energy (ATP) can be procuced per molecule od glucose as compared to anerobic .Also aerobically there are fewer exercise by products than anerobic (Which produces the muscle fatiguing lactic acid)
+- __Fats__
+
+- __Proteins__
