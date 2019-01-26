@@ -6,10 +6,19 @@
     <description>Recent content in Learn Website Manoj on Manoj Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Dec 2018 02:40:24 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Dec 2018 11:21:46 +0530</lastBuildDate>
     
 	<atom:link href="/doc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Introduction</title>
+      <link>/doc/technical/languages/golang/tutorials/learn_how_to_code_go_udemy/introduction/</link>
+      <pubDate>Mon, 24 Dec 2018 11:21:46 +0530</pubDate>
+      
+      <guid>/doc/technical/languages/golang/tutorials/learn_how_to_code_go_udemy/introduction/</guid>
+      <description>Resources https://gobyexample.com/ https://golang.org/doc/#references https://golang.org/ref/spec https://golang.org/doc/effective_go.html    Attachments   Go in Action.pdf  (8645 kB)   The Go Programming Language - Donovan, Alan A. A. &amp;amp; Kernigha_6127.pdf  (5182 kB)   Why use Go Lang ??  Go is created by Google they hit a wall with the real world use cases , they were disappointed with other languages to take the load ,  Ken thompson (B, C , Unix , UTF-8) Rob Pike (Unix, UTF-8) Robert Greisemer (Hotspot , JVM) And a few other engineers at google  Go at Google: Language Design in the Service of Software Engineering - Rob Pike Article Another BLog</description>
+    </item>
     
     <item>
       <title>Prologue</title>

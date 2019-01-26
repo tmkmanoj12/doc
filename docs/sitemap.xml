@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/doc/technical/languages/golang/tutorials/learn_how_to_code_go_udemy/introduction/</loc>
+    <lastmod>2018-12-24T11:21:46+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/technical/languages/golang/tutorials/learn_how_to_code_go_udemy/</loc>
+    <lastmod>2018-12-24T11:20:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/technical/languages/golang/tutorials/</loc>
+    <lastmod>2018-12-24T11:19:08+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/doc/health/books/rujuthadiwekar/dont_loose_out_work_out/prologue/</loc>
     <lastmod>2018-12-12T02:40:24+00:00</lastmod>
   </url>
@@ -220,6 +235,11 @@
   </url>
   
   <url>
+    <loc>/doc/technical/languages/golang/</loc>
+    <lastmod>2018-12-24T11:17:24+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/doc/technical/languages/python/tutorials/bootcamp_zero_to_hero/oops/</loc>
     <lastmod>2018-12-09T10:53:15+00:00</lastmod>
   </url>
@@ -276,7 +296,7 @@
   
   <url>
     <loc>/doc/</loc>
-    <lastmod>2018-12-12T02:40:24+00:00</lastmod>
+    <lastmod>2018-12-24T11:21:46+05:30</lastmod>
   </url>
   
   <url>
