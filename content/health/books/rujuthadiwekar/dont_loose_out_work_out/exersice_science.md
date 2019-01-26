@@ -125,5 +125,63 @@ lifestyle diseases like obesity  , diabeties , heart disease disc prolapse , her
     - In the presence of oxygen (aerobic metabolism),the pyruvic acid doesnot get coverted to lactic acid instead after a series od reactions , to carbon dioxide and water puls 36 molecules of ATP
     - So Aerobically more energy (ATP) can be procuced per molecule od glucose as compared to anerobic .Also aerobically there are fewer exercise by products than anerobic (Which produces the muscle fatiguing lactic acid)
 - __Fats__
-
+    - Our body typically stores fat as triglycerides in both fat cells (or adipose tissue) and in the skeletal muscle cell
+    - when the body employs aerobic pathway , it can use fat as fuel by breaking down tryglecirides  from adipose tissue (also called adipocytes)
+    into free fatty acids(FFA) and transporting them via blood to the working muscle tissue where they are converted to ATP
+    - One FFA produces 147 ATP molecules
+    - Aerobically fat(147 ATP) produces more than carbs(36 ATP)
+    - Anerobically fat cannot be used  as a fuel but when performing anerobic activity with intervening resting periods the FFA from Blood play a minor role as energy source
 - __Proteins__
+
+    - Technically body can use protein as fuel too (aerobically )
+    - However it is only used as fuel in extreme conditions
+    - and mostly used for its main purpose - that of building and reparing the body tissue
+    - It is estimated that not more than 5-10% of body's total energy comes from protein
+
+- __Summary__
+    - For anerobic path way prestored ATP and glycogen are the only sources of fuel
+    - For aerobic pathway all three - carbs, fats, proteins can be used as fuel
+    - Although aerobically fat appears to be most important source of fuel , the fact that carbs are more efficient(need fewer molecules for oxidation) makes them important as a starting fuel source , with fat taking over later
+    - Thats why it is aloways said that fat is always bured in carbohydrate flame
+
+#### The Miracle of After Burn
+
+- You burn calories as a result of activity
+- but it is not easy to calculate (Energy Excersice Expenditure )EEE - Technical terms for calories burnt
+- We should not beileive the Thread mill reading
+- and also consuming less calories per day will lead to weight loss - yes it does but it is not accurate
+- Most of the varibales are there like age ,sex, preworkout meal , meal throughout the week etc.
+- Even the doctors are not sure how much you spent
+
+- What we know
+- EEE is a combination of calories burned during excersice and after due to excerscie
+- Calories burned are direclty proportinal to oxygen consumed(this is how calories measured in labs)
+- So two parts of EEE
+- Calories burned during Excersice
+    - During aeobic activity oxygen consumption is increased so calories are burned 
+    - Oxygen uptake is also proportinal to the heat expenditure during excersice
+    - This is why you sweat so much more duringaerobic activities like runnning ,dance, cycling
+    - And during anerobic activity oxygen consumption is less so less calories are burned
+    
+- Calories burned  post excersice
+    - For aerobic activity  , hardly cany extra oxygen is consumed above what is needed at rest
+    - And for aerobic activity  - Post excersice  , a _lot more oxygen_ is needed to restore the body to its resting state(Breathing , circulation , digestion , hormones) 
+    - and to adapt to excersice by recovering and reaparining from the microscopic tissue damage(anabolism), this is called oxygen debt or debit also known as EPOC(Excess post exercise oxygen consumption) , a more poular term after burn.
+
+- So after burn as compared to oxygen required at rest is the crucial factor here
+- after burn is divided into 2 parts
+    - Alactic acid debt  : 
+        - Amount of oxygen required to replenish ATP-CP stores in the muscles
+        - This is carried out aerobically and happens quicky in about three to four minutes of stopping the excersice
+        - This is called the rapid segment of oxygen debt
+    - Lactic acid debt : 
+        - This is linked to amount of lactic acid that gets produced during excersice and is dependent on intensity , duration and type of exercise
+        - EPOC(Excess post excersice oxygen consumption) does the job by removing lactic acid and accumulation from musucles,restoring glycoge stores , bringing body temperature back to resting state
+        - This slow segment of oxygen debt and can take up to 24 to 48 hours  based on the intensity of the workout
+        - In Other words due to performing anerobic activity you will burn more calories (exactly burn more fat) for as long as 24 to 48 hours post excersice
+- After burn for anerobic activities is exponentially higher than what is for aerobic excersice
+- Essentially how much fat burning you will acheive and therefore the final effect on your body composition (how thin,  actually how lean and young you look  ) is based on accumulative effect of after brun through the week
+- So if we do only aerobic will we get optimum results
+- No we need noth aerobic and anerobic excersices like wholesome food we need wholesome excersice
+
+
