@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/doc/health/books/dr-berg/the_new_body_type_guide/introduction/</loc>
+    <lastmod>2019-01-26T17:11:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/health/books/dr-berg/the_new_body_type_guide/</loc>
+    <lastmod>2019-01-26T22:39:38+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/health/books/dr-berg/</loc>
+    <lastmod>2019-01-26T22:39:29+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/doc/technical/languages/golang/tutorials/learn_how_to_code_go_udemy/introduction/</loc>
     <lastmod>2018-12-24T11:21:46+05:30</lastmod>
   </url>
@@ -45,11 +60,6 @@
   <url>
     <loc>/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/</loc>
     <lastmod>2018-11-27T07:50:56+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/doc/health/books/rujuthadiwekar/</loc>
-    <lastmod>2018-11-27T07:49:55+05:30</lastmod>
   </url>
   
   <url>
@@ -125,6 +135,11 @@
   <url>
     <loc>/doc/health/books/rujuthadiwekar/dont_looose_your_mind_loose_weight/about_vitamins/</loc>
     <lastmod>2018-12-01T03:02:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/doc/health/books/rujuthadiwekar/</loc>
+    <lastmod>2018-11-27T07:49:55+05:30</lastmod>
   </url>
   
   <url>
@@ -296,7 +311,7 @@
   
   <url>
     <loc>/doc/</loc>
-    <lastmod>2018-12-24T11:21:46+05:30</lastmod>
+    <lastmod>2019-01-26T17:11:22+00:00</lastmod>
   </url>
   
   <url>

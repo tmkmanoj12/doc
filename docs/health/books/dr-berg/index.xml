@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr Berg on Manoj Documentation</title>
+    <link>/doc/health/books/dr-berg/</link>
+    <description>Recent content in Dr Berg on Manoj Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Jan 2019 22:39:29 +0530</lastBuildDate>
+    
+	<atom:link href="/doc/health/books/dr-berg/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
